@@ -36,7 +36,9 @@ import royalRoads from './../images/logo-royal-roads.png';
 class About extends Component {
   render() {
     return (
-      <div className="About ca-">
+      <div className="About">
+
+        <div class="ca-nav-spacer w3-hide-small"></div>
 
         <Title title="About Me"></Title>
 
@@ -49,25 +51,21 @@ class About extends Component {
           </div>
       
           <p>
-            I live in Milton, Canada with my wife and three kids. We spend our free time 
-            playing board games, camping, cottaging, rock climbing, biking, and generally 
-            enjoying the outdoors.  
+            I live in Milton, Canada with my wife and three kids. We spend our free time playing board games, camping, cottaging, rock climbing, biking, and generally enjoying the outdoors.  
           </p>
           
           <p>
-            I code for fun. I enjoy spending quiet time <Link to="/learning/list">learning 
-            code</Link>; a new language, an old language in a new environment, a new 
-            framework, or just tinkering with new technology. 
+            I code for fun. I enjoy spending quiet time <Link to="/learning/list">learning code</Link>; a new language, an old language in a new environment, a new framework, or just tinkering with new technology. 
           </p>
 
           <hr class="ca-hr" />
 
-          <PhotoList photos={photos}></PhotoList>
-          <Social links={social}></Social>
-          <AboutEducationList educations={educations}></AboutEducationList>
-          <AboutJobList jobs={jobs}></AboutJobList>
-
         </article>
+
+        <PhotoList photos={photos}></PhotoList>
+        <Social links={social}></Social>
+        <AboutEducationList educations={educations}></AboutEducationList>
+        <AboutJobList jobs={jobs}></AboutJobList>
 
       </div>
     );

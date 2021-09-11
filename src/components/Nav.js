@@ -14,7 +14,7 @@ class Nav extends Component {
     return (
       <div className="Nav">
 
-        <nav className="ca-nav w3-orange ca-border-bottom-gray">
+        <nav className="ca-nav w3-orange ca-border-bottom-gray w3-hide-small">
           <div className="w3-cell-row w3-padding-16">
             <div className="w3-cell w3-cell-middle w3-container">
 
@@ -30,7 +30,7 @@ class Nav extends Component {
               <Link to="/about" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">About Me</Link>
 
             </div>
-            <div className="w3-cell w3-cell-middle w3-container w3-right-align w3-hide-medium">
+            <div className="w3-cell w3-cell-middle w3-container w3-right-align w3-hide-small w3-hide-medium">
               
               <NavSocial links={social}></NavSocial>
 

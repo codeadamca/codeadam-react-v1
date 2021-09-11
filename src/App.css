@@ -35,6 +35,9 @@ a:visited {
 
 /* Nav Styles */
 
+.ca-nav-spacer {
+  height: 60px;
+}
 .ca-nav {
   overflow: hidden;
   position: fixed;
