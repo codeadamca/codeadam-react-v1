@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import {Link} from 'react-router-dom';
 
 import facebook from './../images/facebook.jpeg';
 import instagram from './../images/instagram.jpeg';
@@ -17,16 +18,16 @@ class Nav extends Component {
           <div className="w3-cell-row w3-padding-16">
             <div className="w3-cell w3-cell-middle w3-container">
 
-              <a href="/" className="w3-text-white ca-pt-sans">&#8962;</a>
-              <a href="/teaching" className="w3-text-white ca-pt-sans ca-margin-small">Teaching</a>
+              <Link to="/" className="w3-text-white ca-pt-sans">&#8962;</Link>
+              <Link to="/teaching" className="w3-text-white ca-pt-sans ca-margin-small">Teaching</Link>
               <span className="w3-text-white ca-pt-sans">|</span>
-              <a href="/research-publishings" className="w3-text-white ca-pt-sans ca-margin-small">Research and Publishings</a>
+              <Link to="/research-publishings" className="w3-text-white ca-pt-sans ca-margin-small">Research and Publishings</Link>
               <span className="w3-text-white ca-pt-sans">|</span>
-              <a href="/speaking-engagements" className="w3-text-white ca-pt-sans ca-margin-small">Speaking Engagements</a>
+              <Link to="/speaking-engagements" className="w3-text-white ca-pt-sans ca-margin-small">Speaking Engagements</Link>
               <span className="w3-text-white ca-pt-sans">|</span>
-              <a href="/professional-development" className="w3-text-white ca-pt-sans ca-margin-small">Professional Development</a>
+              <Link to="/professional-development" className="w3-text-white ca-pt-sans ca-margin-small">Professional Development</Link>
               <span className="w3-text-white ca-pt-sans">|</span>
-              <a href="/about" className="w3-text-white ca-pt-sans ca-margin-small">About Me</a>
+              <Link to="/about" className="w3-text-white ca-pt-sans ca-margin-small">About Me</Link>
 
             </div>
             <div className="w3-cell w3-cell-middle w3-container w3-right-align w3-hide-medium">

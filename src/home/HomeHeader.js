@@ -2,10 +2,10 @@ import React,{Component} from "react";
 
 import homeVideo from './../video/home-video.mp4';
 
-class HeaderHome extends Component {
+class HomeHeader extends Component {
   render() {
     return (
-      <div className="HeaderHome">
+      <div className="HomeHeader">
 
         <header className="ca-border-bottom-gray">
 
@@ -34,4 +34,4 @@ class HeaderHome extends Component {
   }
 }
 
-export default HeaderHome;
+export default HomeHeader;

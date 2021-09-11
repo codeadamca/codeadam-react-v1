@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import academia from './images/academia.jpeg';
 import arduino from './images/arduino.png';
@@ -22,39 +22,49 @@ import ArticleList from "./components/ArticleList";
 import Calendly from './components/Calendly';
 import CodeAdam from './components/CodeAdam';
 import FooterSocial from './components/FooterSocial';
-import HeaderHome from './components/HeaderHome';
 import HeaderTitle from './components/HeaderTitle';
 import Nav from './components/Nav';
 import NavCards from './components/NavCards';
+
+import Home from './home/Home';
+import Teaching from './teaching/Teaching';
+import Research from './research/Research';
+import Speaking from './speaking/Speaking';
+import Professional from './professional/Professional';
+import About from './about/About';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      
-      <Nav></Nav>
+    <BrowserRouter>
+      <div className="App">
+        
+        <Nav></Nav>
 
-      <HeaderHome></HeaderHome>
+        <main className="w3-padding-medium">
+  
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
+            <Route path="/teaching" component={Teaching}></Route>
+            <Route path="/research-publishings" component={Research}></Route>
+            <Route path="/speaking-engagements" component={Speaking}></Route>
+            <Route path="/professional-development" component={Professional}></Route>
+            <Route path="/about" component={About}></Route>
+          </Switch>
 
-      <main className="w3-padding-medium">
- 
-        <HeaderTitle title="Testing"></HeaderTitle>
+          <HeaderTitle title="Testing"></HeaderTitle>
+          <ArticleList articles={articles}></ArticleList>
+          <Calendly></Calendly>
+          <NavCards title="Teaching Portfolio" links={portfolio}></NavCards>
+          <NavCards title="In the Classroom" links={classroom}></NavCards>
+          <CodeAdam></CodeAdam>
+          <FooterSocial links={social}></FooterSocial>
 
-        <ArticleList articles={articles}></ArticleList>
+        </main>
 
-        <Calendly></Calendly>
-
-        <NavCards title="Teaching Portfolio" links={portfolio}></NavCards>
-
-        <NavCards title="In the Classroom" links={classroom}></NavCards>
-
-        <CodeAdam></CodeAdam>
-
-        <FooterSocial links={social}></FooterSocial>
-
-      </main>
-
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
