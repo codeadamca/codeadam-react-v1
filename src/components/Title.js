@@ -1,9 +1,9 @@
 import React,{Component} from "react";
 
-class HeaderTitle extends Component {
+class Title extends Component {
   render() {
     return (
-      <div className="HeaderTitle w3-center">
+      <div className="Title w3-center">
 
         {this.props.title && <h1 className="w3-text-dark-grey">{this.props.title}</h1>}
 
@@ -14,4 +14,4 @@ class HeaderTitle extends Component {
   }
 }
 
-export default HeaderTitle;
+export default Title;

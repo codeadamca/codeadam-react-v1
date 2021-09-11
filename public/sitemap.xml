@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://codeadam.ca/</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/teaching.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/research-publishings.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/speaking-engagements.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/professional-development.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/about.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/research-coding-pedagogies.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/list.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/tools.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/list.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/ev3-resources.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/tinkering.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/technology-in-the-classroom.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/industry-projects.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/tep-requirements.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/arduino-from-nodejs.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/arduino-to-nodejs.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/arduino-motion-sensor.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/arduino-motor.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/arduino-led-matrix.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/arduino-built-in-led.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/arduino-laser.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/arduino-neopixel-ring.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/arduino-nodejs-lcd.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/arduino-tft-touchscreen.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/gcp-ftp.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/gcp-vm-instance.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/gcp-nodejs.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/javascript-hello-world.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/javascript-placement.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/javascript-output.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/javascript-variables-arrays.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/javascript-dom</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/javascript-mouse-events.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/javascript-if-statements</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/javascript-for-loops.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/nodejs-website.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/nodejs-socket.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/nodejs-heroku.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/nodejs-api.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-introduction.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-big-picture.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-output.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-info.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-variables.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-arrays.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-if-switch.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-for-while.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-sql-mysql.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-contact-form.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-mysql-images.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-mysql-youtube.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/php-cms.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/react-basic-webpage.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/react-forms.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/react-firebase-forms.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/react-mern</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/learning/wordpress-install.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/lamp-apache-php-mysql.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/lamp-webmin-firewall.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/lamp-phpmyadmin.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/lamp-git.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/lamp-composer.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/nodejs-nginx.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/nodejs-ssl.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/nodejs-nodejs.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/nodejs-pm2.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/nodejs-nginx-configure.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/shared-compute-instance.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/server-setup/shared-ide.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/ev3-gate.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/ev3-colors.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/ev3-sumo.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/tools/ev3/</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/instructions/building-instructions-gate.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/instructions/building-instructions-gate-car.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/instructions/building-instructions-line.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://codeadam.ca/instructions/building-instructions-sumo.html</loc>
+  <lastmod>2021-04-13T18:59:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

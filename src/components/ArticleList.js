@@ -8,7 +8,7 @@ function ArticleList(props) {
     <article className="w3-text-dark-gray ca-container-600">
       <h2 className="w3-text-red w3-center">{article.title}</h2>
       <img src={article.image} className="w3-image w3-center" />
-      <div dangerouslySetInnerHTML={{__html: article.content}} />
+      <p dangerouslySetInnerHTML={{__html: article.content}}></p>
       <div className="ca-font-small-fixed">
         <ArticleListResources resources={article.resources}></ArticleListResources>
         Date: {article.date}

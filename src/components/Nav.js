@@ -18,16 +18,16 @@ class Nav extends Component {
           <div className="w3-cell-row w3-padding-16">
             <div className="w3-cell w3-cell-middle w3-container">
 
-              <Link to="/" className="w3-text-white ca-pt-sans">&#8962;</Link>
-              <Link to="/teaching" className="w3-text-white ca-pt-sans ca-margin-small">Teaching</Link>
+              <Link to="/" className="w3-text-white ca-pt-sans ca-font-none">&#8962;</Link>
+              <Link to="/teaching" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Teaching</Link>
               <span className="w3-text-white ca-pt-sans">|</span>
-              <Link to="/research-publishings" className="w3-text-white ca-pt-sans ca-margin-small">Research and Publishings</Link>
+              <Link to="/research-publishings" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Research and Publishings</Link>
               <span className="w3-text-white ca-pt-sans">|</span>
-              <Link to="/speaking-engagements" className="w3-text-white ca-pt-sans ca-margin-small">Speaking Engagements</Link>
+              <Link to="/speaking-engagements" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Speaking Engagements</Link>
               <span className="w3-text-white ca-pt-sans">|</span>
-              <Link to="/professional-development" className="w3-text-white ca-pt-sans ca-margin-small">Professional Development</Link>
+              <Link to="/professional-development" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Professional Development</Link>
               <span className="w3-text-white ca-pt-sans">|</span>
-              <Link to="/about" className="w3-text-white ca-pt-sans ca-margin-small">About Me</Link>
+              <Link to="/about" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">About Me</Link>
 
             </div>
             <div className="w3-cell w3-cell-middle w3-container w3-right-align w3-hide-medium">
@@ -44,11 +44,11 @@ class Nav extends Component {
 }
 
 const social = [
-  {image: facebook},
-  {image: linkedin},
-  {image: instagram},
-  {image: twitter},
-  {image: youtube}
+  {image: facebook, url: 'https://www.facebook.com/adambenjaminthomas'},
+  {image: instagram, url: 'https://www.instagram.com/codeadamca/'},
+  {image: linkedin, url: 'https://www.linkedin.com/in/adam-thomas-6b563012'},
+  {image: twitter, url: 'https://twitter.com/codeadamca'},
+  {image: youtube, url: 'https://www.youtube.com/channel/UCvn-c8MnpjythwWKDi5qMvA'}
 ];
 
 export default Nav;

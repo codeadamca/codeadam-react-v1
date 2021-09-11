@@ -1,3 +1,10 @@
-# https://www.robotstxt.org/robotstxt.html
+
+Sitemap: https://professoradamthomas.com/sitemap.xml
+
 User-agent: *
-Disallow:
+Disallow: /includes/
+Disallow: /tep/
+Disallow: /styles/
+Disallow: /video/
+Disallow: /script/
+Disallow: /documents/

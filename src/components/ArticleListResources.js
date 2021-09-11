@@ -3,10 +3,10 @@ import React from "react";
 function ArticleListResources(props) {
 
   const bar = String.fromCodePoint(0x00A9);
-  const content = props.resources.map((article, index) =>
+  const content = props.resources.map((resource, index) =>
     <>
       {index > 0 ? ' | ' : null}
-      <a href={article.url}>{article.name}</a>
+      <a href={resource.url}>{resource.name}</a>
     </>
   );
 

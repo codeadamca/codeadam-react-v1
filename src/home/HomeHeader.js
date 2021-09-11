@@ -29,6 +29,8 @@ class HomeHeader extends Component {
 
         </header>
 
+        <hr class="ca-hr" />
+
       </div>
     );
   }
