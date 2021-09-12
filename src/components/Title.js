@@ -3,9 +3,11 @@ import React,{Component} from "react";
 class Title extends Component {
   render() {
     return (
-      <div className="Title w3-center">
+      <div className="Title">
 
-        {this.props.title && <h1 className="w3-text-dark-grey">{this.props.title}</h1>}
+        <div class="w3-center">
+          {this.props.title && <h1 className="w3-text-dark-grey">{this.props.title}</h1>}
+        </div>
 
         <hr className="ca-hr" />
 

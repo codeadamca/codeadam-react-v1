@@ -7,11 +7,11 @@ class CodeAdam extends Component {
     return (
       <div className="Calendly">
 
-        <article className="ca-container-600 w3-center">
+        <div className="ca-container-600 w3-center">
           <a href="/">
             <img src={codeBlock} className="ca-image-small" />
           </a>
-        </article>
+        </div>
 
         <hr className="ca-hr" />
 

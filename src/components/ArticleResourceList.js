@@ -1,6 +1,6 @@
 import React from "react";
 
-function ArticleListResources(props) {
+function ArticleResourceList(props) {
 
   const bar = String.fromCodePoint(0x00A9);
   const content = props.resources.map((resource, index) =>
@@ -11,7 +11,7 @@ function ArticleListResources(props) {
   );
 
   return (
-    <div className="ArticleListResources">
+    <div className="ArticleResourceList">
       
         Resources: {' '}
         {content}
@@ -21,4 +21,4 @@ function ArticleListResources(props) {
   
 }
 
-export default ArticleListResources;
+export default ArticleResourceList;

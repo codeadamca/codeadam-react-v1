@@ -3,7 +3,7 @@ import React,{Component} from "react";
 import ArticleList from "./../components/ArticleList";
 import Calendly from './../components/Calendly';
 import CodeAdam from './../components/CodeAdam';
-import Social from './../components/Social';
+import SocialList from './../components/SocialList';
 import NavCards from './../components/NavCards';
 
 import HomeHeader from './HomeHeader';
@@ -29,7 +29,7 @@ class Home extends Component {
         <NavCards title="Teaching Portfolio" links={portfolio}></NavCards>
         <NavCards title="In the Classroom" links={classroom}></NavCards>
         <CodeAdam></CodeAdam>
-        <Social links={social}></Social>
+        <SocialList links={social}></SocialList>
 
       </div>
     );

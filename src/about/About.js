@@ -2,7 +2,7 @@ import React,{Component} from "react";
 import {Link} from 'react-router-dom';
 
 import PhotoList from './../components/PhotoList';
-import Social from './../components/Social';
+import SocialList from '../components/SocialList';
 import Title from './../components/Title';
 
 import AboutEducationList from './AboutEducationList';
@@ -38,7 +38,7 @@ class About extends Component {
     return (
       <div className="About">
 
-        <div class="ca-nav-spacer w3-hide-small"></div>
+        <div className="ca-nav-spacer w3-hide-small"></div>
 
         <Title title="About Me"></Title>
 
@@ -46,7 +46,7 @@ class About extends Component {
             
           <h2 className="w3-text-red w3-center">Abstract</h2>
       
-          <div class="w3-center">
+          <div className="w3-center">
             <img src={profile} alt="Adam Thomas" width="300" />
           </div>
       
@@ -58,12 +58,12 @@ class About extends Component {
             I code for fun. I enjoy spending quiet time <Link to="/learning/list">learning code</Link>; a new language, an old language in a new environment, a new framework, or just tinkering with new technology. 
           </p>
 
-          <hr class="ca-hr" />
-
         </article>
 
+        <hr className="ca-hr" />
+
         <PhotoList photos={photos}></PhotoList>
-        <Social links={social}></Social>
+        <SocialList links={social}></SocialList>
         <AboutEducationList educations={educations}></AboutEducationList>
         <AboutJobList jobs={jobs}></AboutJobList>
 
@@ -131,7 +131,6 @@ const educations = [
   }
 
 ];
-
 
 const jobs = [
   {

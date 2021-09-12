@@ -1,12 +1,12 @@
 import React from "react";
 
-function AboutEducationListCredits(props) {
+function AboutEducationCreditList(props) {
 
   const bar = String.fromCodePoint(0x00A9);
   const content = props.credits.map((credit, index) =>
     <>
       <h3>{credit.title}</h3>
-      <p class="ca-font-small-fixed">
+      <p className="ca-font-small-fixed">
         Description: <span dangerouslySetInnerHTML={{__html: credit.description}}></span>
         <br />
         Date: {credit.date}
@@ -15,7 +15,7 @@ function AboutEducationListCredits(props) {
   );
 
   return (
-    <div className="AboutEducationListCredits">
+    <div className="AboutEducationCreditList">
       
         {content}
 
@@ -24,4 +24,4 @@ function AboutEducationListCredits(props) {
   
 }
 
-export default AboutEducationListCredits;
+export default AboutEducationCreditList;

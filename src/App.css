@@ -16,6 +16,9 @@ a:hover,
 a:visited {
   color: #eb741d;
 }
+p, blockquote {
+  text-align: justify;
+}
 
 /* YouTube  Styles */
 .ca-embed-container {
@@ -49,6 +52,10 @@ a:visited {
 .ca-margin-small-vertical {
   margin-top:5px;
   margin-bottom: 5px;
+}
+.ca-margin-small-horizontal {
+  margin-left:5px;
+  margin-right: 5px;
 }
 .ca-margin-medium-vertical {
   margin-top:15px;
