@@ -1,6 +1,9 @@
 import React from "react";
 
 import ArticleResourceList from './ArticleResourceList';
+import Instagram from './Instagram';
+import SoundCloud from './SoundCloud';
+import Twitter from './Twitter';
 
 function ArticleList(props) {
 
@@ -8,7 +11,26 @@ function ArticleList(props) {
     <>
       <article className="w3-text-dark-gray ca-container-600">
         <h2 className="w3-text-red w3-center">{article.title}</h2>
-        <img src={article.image} className="w3-image w3-center" />
+        {
+          article.url 
+          ? <a href={article.url}><img src={article.image} className="w3-image w3-center" /></a>
+          : <img src={article.image} className="w3-image w3-center" />
+        }
+        {
+          article.instagram_id
+          ? <Instagram id={article.instagram_id}></Instagram>
+          : null
+        }
+        {
+          article.twitter_id
+          ? <Twitter id={article.twitter_id}></Twitter>
+          : null
+        }
+        {
+          article.soundcloud_id
+          ? <SoundCloud id={article.soundcloud_id}></SoundCloud>
+          : null
+        }
         <p dangerouslySetInnerHTML={{__html: article.content}}></p>
         <div className="ca-font-small-fixed">
           <ArticleResourceList resources={article.resources}></ArticleResourceList>
