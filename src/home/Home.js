@@ -43,30 +43,29 @@ const articles = [
     title: 'BrevisRefero and BioTalent', 
     image: mitacsBiotalent, 
     content: 'In September of 2021 I will be the faculty supervisor for a <a href="https://www.biotalent.ca/">BioTalent Canada</a> grant between <a href="https://www.brevisrefero.com/">BrevisRefero</a> and <a href="https://humber.ca/">Humber College</a>.',
-    image: mitacsBiotalent,
     resources: [
     {url: 'https://www.biotalent.ca/', name: 'BioTalent'},
     {url: 'https://humber.ca/', name: 'Humber College'},
     {url: 'https://www.brevisrefero.com/', name: 'BrevisRefero'}
     ],
-    date: 'September 7, 2021'
+    published_at: 'September 7, 2021'
   }
 ];
 
 const portfolio = [
-  {icon: 'fas fa-laptop-code', href: '/teaching', name: 'Teaching' },
-  {icon: 'fas fa-book', href: '/research-publishings', name: 'Research Publishings' },
-  {icon: 'fas fa-chalkboard', href: '/speacking-engagements', name: 'Speaking Engagements' },
-  {icon: 'fas fa-graduation-cap', href: '/professional-development', name: 'Professional Development' },
-  {icon: 'fas fa-user', href: '/about', name: 'About Me' }
+  {icon: 'fas fa-laptop-code', href: '/teaching', name: 'Teaching'},
+  {icon: 'fas fa-book', href: '/research-publishings', name: 'Research'},
+  {icon: 'fas fa-chalkboard', href: '/speacking-engagements', name: 'Speaking'},
+  {icon: 'fas fa-graduation-cap', href: '/professional-development', name: 'Professional'},
+  {icon: 'fas fa-user', href: '/about', name: 'About Me'}
 ];
 
 const classroom = [
-  {icon: 'fas fa-code', href: '/learning/list', name: 'Teaching' },
-  {icon: 'fas fa-tools', href: '/tools', name: 'Research Publishings' },
-  {icon: 'fas fa-server', href: '/server-setup', name: 'Speaking Engagements' },
-  {icon: 'fas fa-robot', href: '/resources', name: 'Professional Development' },
-  {icon: 'fas fa-hammer', href: '/tinkering', name: 'About Me' }
+  {icon: 'fas fa-code', href: '/learning/list', name: 'Teaching'},
+  {icon: 'fas fa-tools', href: '/tools', name: 'Tools'},
+  {icon: 'fas fa-server', href: '/server-setup', name: 'Server Setup'},
+  {icon: 'fas fa-robot', href: '/resources', name: 'EV3 Resources'},
+  {icon: 'fas fa-hammer', href: '/tinkering', name: 'Tinkering'}
 ];
 
 const social = [

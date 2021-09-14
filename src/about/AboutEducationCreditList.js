@@ -9,7 +9,7 @@ function AboutEducationCreditList(props) {
       <p className="ca-font-small-fixed">
         Description: <span dangerouslySetInnerHTML={{__html: credit.description}}></span>
         <br />
-        Date: {credit.date}
+        Date: {credit.published_at}
       </p>
     </>
   );

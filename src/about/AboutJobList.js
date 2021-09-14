@@ -9,7 +9,7 @@ function AboutJobList(props) {
       <div className="ca-font-small-fixed">
         Institution: <a href="job.url">{job.name}</a>
         <br />
-        Date: {job.date}
+        Date: {job.published_at}
       </div>
     </article>
   );

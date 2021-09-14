@@ -12,7 +12,7 @@ function ArticleList(props) {
         <p dangerouslySetInnerHTML={{__html: article.content}}></p>
         <div className="ca-font-small-fixed">
           <ArticleResourceList resources={article.resources}></ArticleResourceList>
-          Date: {article.date}
+          Date: {article.published_at}
         </div>
       </article>
       <hr className="ca-hr" />

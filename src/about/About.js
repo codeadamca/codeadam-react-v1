@@ -104,7 +104,7 @@ const educations = [
       {
         title: 'Masters of Arts in Learning and Technology',
         description: '<a href="http://www.royalroads.ca/prospective-students/master-arts-learning-and-technology">Masters of Arts in Learning and Technology</a> from <a href="http://www.royalroads.ca/">Royal Roads University</a>',
-        date: 'April 2016'
+        published_at: 'April 2016'
       }
     ]
   },
@@ -114,17 +114,17 @@ const educations = [
       {
         title: 'Teaching Excellence Program', 
         description: '<a href="http://www.humber.ca/centreforteachingandlearning/professional-development/teaching-excellence-program/introduction.html">Teaching Excellence Certificate</a>',
-        date: 'September 2016'
+        published_at: 'September 2016'
       },
       {
         title: 'Web Design, Development and Maintenance', 
         description: 'Web Design, Development and Maintenance Certificate from <a href="https://humber.ca/">Humber College</a>',
-        date: 'April 2002'
+        published_at: 'April 2002'
       },
       {
         title: 'Computer Information Systems', 
         description: 'Computer Information Systems Diploma from <a href="https://humber.ca/">Humber College</a>',
-        date: 'September 1999'
+        published_at: 'September 1999'
       },
     ]
     
@@ -139,7 +139,7 @@ const jobs = [
     position: 'Lead Developer',
     description: 'Lead developer of <a href="https://app.brevisrefero.com/">app.brevisrefero.com</a>, an online RFP platform connecting biopharm companies with biologics development and manufacturing services.',
     url: 'https://brevisrefero.com/',
-    date: 'July 2018 to Current'
+    published_at: 'July 2018 to Current'
   },
   {
     image: humber, 
@@ -147,7 +147,7 @@ const jobs = [
     position: 'Professor, Multimedia Design, Interactive & Web Development',
     description: 'Teach coding in three programs at <a href="http://humber.ca">Humber College</a>, Toronto Canada: <a href="https://mediastudies.humber.ca/programs/graphic-design.html">Graphic Design</a>, <a href="https://mediastudies.humber.ca/programs/multimedia-design-and-development.html">Multimedia, Design and Development</a>, and <a href="https://mediastudies.humber.ca/programs/web-design-interactive-media.html">Web Design and Interactive Media</a>. Technologies taught include HTML, CSS, JavaScript, jQuery, Firebase, SASS, LESS, PHP, MySQL, NodeJS, Python, Arduino, Raspberry Pi, and more.',
     url: 'http://humber.ca/',
-    date: 'September 2016 to Current'
+    published_at: 'September 2016 to Current'
   },
   {
     image: rht, 
@@ -155,6 +155,6 @@ const jobs = [
     position: 'Partner and Lead Developer',
     description: 'Contributed to the development of a series of internal applications such as Plujo, Learnopia, and <a href="https://rnked.com/">Rnked</a>.',
     url: 'http://www.robinhoodtech.com/',
-    date: 'September 2006 to 2016'
+    published_at: 'September 2006 to 2016'
   }
 ];
