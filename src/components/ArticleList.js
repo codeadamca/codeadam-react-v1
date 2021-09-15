@@ -12,9 +12,17 @@ function ArticleList(props) {
       <article className="w3-text-dark-gray ca-container-600">
         <h2 className="w3-text-red w3-center">{article.title}</h2>
         {
-          article.url 
-          ? <a href={article.url}><img src={article.image} className="w3-image w3-center" /></a>
-          : <img src={article.image} className="w3-image w3-center" />
+          article.image
+          ? 
+            article.url 
+            ? <a href={article.url}><img src={article.image} className="w3-image w3-center" /></a>
+            : <img src={article.image} className="w3-image w3-center" />
+          : null
+        }
+        {
+          article.image && (article.instagram_id || article.twitter_id || article.soundcloud_id)
+          ? <div class="ca-nav-spacer-small"></div>
+          : null
         }
         {
           article.instagram_id

@@ -13,7 +13,6 @@ class Research extends Component {
         <div className="ca-nav-spacer w3-hide-small"></div>
 
         <Title title="Research and Publishings"></Title>
-
         <ArticleList articles={articles}></ArticleList>
 
       </div>

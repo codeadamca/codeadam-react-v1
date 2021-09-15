@@ -18,7 +18,7 @@ class HomeHeader extends Component {
                     
                 <h1 className="w3-text-white ca-font-med ca-pt-sans">Adam Thomas</h1>
                 <h2 className="w3-text-red ca-font-large ca-pt-sans">I Teach Code!</h2>
-                <p className="w3-text-white ca-font-small ca-pt-sans">
+                <p className="w3-text-white ca-font-small ca-pt-sans w3-center">
                     Self-taught full-stack developer.
                     <br />
                     Learning code and teaching code at Humber College, Toronto, Canada.

@@ -41,6 +41,9 @@ p, blockquote {
 .ca-nav-spacer {
   height: 60px;
 }
+.ca-nav-spacer-small {
+  height: 30px;
+}
 .ca-nav {
   overflow: hidden;
   position: fixed;

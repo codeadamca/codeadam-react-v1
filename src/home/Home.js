@@ -55,7 +55,7 @@ const articles = [
 const portfolio = [
   {icon: 'fas fa-laptop-code', href: '/teaching', name: 'Teaching'},
   {icon: 'fas fa-book', href: '/research-publishings', name: 'Research'},
-  {icon: 'fas fa-chalkboard', href: '/speacking-engagements', name: 'Speaking'},
+  {icon: 'fas fa-chalkboard', href: '/speaking-engagements', name: 'Speaking'},
   {icon: 'fas fa-graduation-cap', href: '/professional-development', name: 'Professional'},
   {icon: 'fas fa-user', href: '/about', name: 'About Me'}
 ];

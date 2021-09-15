@@ -6,7 +6,7 @@ function NavCards(props) {
     <div className="w3-cell">
       <i className={link.icon + " fa-3x w3-text-gray w3-padding-16"} aria-hidden="true"></i>
       <br />
-      <a href={"/" + link.href} className="ca-font-small-fixed">
+      <a href={link.href} className="ca-font-small-fixed">
         {link.name}
       </a>
     </div>

@@ -6,12 +6,13 @@ import {Page} from './extensions/Page';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 
+import About from './about/About';
 import Home from './home/Home';
-import Teaching from './teaching/Teaching';
+import Industry from './industry/Industry';
+import Professional from './professional/Professional';
 import Research from './research/Research';
 import Speaking from './speaking/Speaking';
-import Professional from './professional/Professional';
-import About from './about/About';
+import Teaching from './teaching/Teaching';
 
 import './App.css';
 
@@ -48,6 +49,8 @@ function App() {
             <Page path="/speaking-engagements" component={Speaking}></Page>
             <Page path="/professional-development" component={Professional}></Page>
             <Page path="/about" component={About} title="About Me"></Page>
+
+            <Page path="/industry-projects" component={Industry}></Page>
           </Switch>
 
         </main>
