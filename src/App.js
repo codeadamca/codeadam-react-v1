@@ -13,6 +13,7 @@ import Professional from './professional/Professional';
 import Research from './research/Research';
 import Speaking from './speaking/Speaking';
 import Teaching from './teaching/Teaching';
+import Tools from './tools/Tools';
 
 import './App.css';
 
@@ -49,6 +50,8 @@ function App() {
             <Page path="/speaking-engagements" component={Speaking}></Page>
             <Page path="/professional-development" component={Professional}></Page>
             <Page path="/about" component={About} title="About Me"></Page>
+
+            <Page path="/tools" component={Tools} title="Classroom Tools"></Page>
 
             <Page path="/industry-projects" component={Industry}></Page>
           </Switch>

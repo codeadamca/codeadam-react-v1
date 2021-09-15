@@ -13,10 +13,11 @@ import facebook from './../images/facebook.jpeg';
 import github from './../images/github.jpeg';
 import instagram from './../images/instagram.jpeg';
 import linkedin from './../images/linkedin.jpeg';
-import mitacsBiotalent from './../images/mitacs-biotalent.jpeg';
 import stackoverflow from './../images/stackoverflow.png';
 import twitter from './../images/twitter.jpeg';
 import youtube from './../images/youtube.jpeg';
+
+import articles from './articles.json';
 
 class Home extends Component {
   render() {
@@ -29,7 +30,7 @@ class Home extends Component {
         <NavCards title="Teaching Portfolio" links={portfolio}></NavCards>
         <NavCards title="In the Classroom" links={classroom}></NavCards>
         <CodeAdam></CodeAdam>
-        <SocialList links={social}></SocialList>
+        <SocialList links={socials}></SocialList>
 
       </div>
     );
@@ -37,20 +38,6 @@ class Home extends Component {
 }
 
 export default Home;
-
-const articles = [
-  {
-    title: 'BrevisRefero and BioTalent', 
-    image: mitacsBiotalent, 
-    content: 'In September of 2021 I will be the faculty supervisor for a <a href="https://www.biotalent.ca/">BioTalent Canada</a> grant between <a href="https://www.brevisrefero.com/">BrevisRefero</a> and <a href="https://humber.ca/">Humber College</a>.',
-    resources: [
-    {url: 'https://www.biotalent.ca/', name: 'BioTalent'},
-    {url: 'https://humber.ca/', name: 'Humber College'},
-    {url: 'https://www.brevisrefero.com/', name: 'BrevisRefero'}
-    ],
-    published_at: 'September 7, 2021'
-  }
-];
 
 const portfolio = [
   {icon: 'fas fa-laptop-code', href: '/teaching', name: 'Teaching'},
@@ -61,14 +48,14 @@ const portfolio = [
 ];
 
 const classroom = [
-  {icon: 'fas fa-code', href: '/learning/list', name: 'Teaching'},
+  {icon: 'fas fa-code', href: '/learning/list', name: 'Learning'},
   {icon: 'fas fa-tools', href: '/tools', name: 'Tools'},
   {icon: 'fas fa-server', href: '/server-setup', name: 'Server Setup'},
   {icon: 'fas fa-robot', href: '/resources', name: 'EV3 Resources'},
   {icon: 'fas fa-hammer', href: '/tinkering', name: 'Tinkering'}
 ];
 
-const social = [
+const socials = [
   {image: academia, url: 'https://humber.academia.edu/AdamThomas'},
   {image: facebook, url: 'https://www.facebook.com/adambenjaminthomas'},
   {image: github, url: 'https://github.com/codeadamca'},

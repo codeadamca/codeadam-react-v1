@@ -21,7 +21,7 @@ function ArticleList(props) {
         }
         {
           article.image && (article.instagram_id || article.twitter_id || article.soundcloud_id)
-          ? <div class="ca-nav-spacer-small"></div>
+          ? <div className="ca-nav-spacer-small"></div>
           : null
         }
         {

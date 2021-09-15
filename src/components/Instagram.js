@@ -6,7 +6,7 @@ class Instagram extends Component {
       <div className="Instagram">
 
         <blockquote 
-            class="instagram-media" 
+            className="instagram-media" 
             data-instgrm-permalink={"https://www.instagram.com/p/" + this.props.id + "/"}
             data-instgrm-version="8" 
             style={{
