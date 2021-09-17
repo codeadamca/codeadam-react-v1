@@ -11,8 +11,10 @@ import Home from './home/Home';
 import Industry from './industry/Industry';
 import Professional from './professional/Professional';
 import Research from './research/Research';
+import Server from './server/Server';
 import Speaking from './speaking/Speaking';
 import Teaching from './teaching/Teaching';
+import Tinkering from './tinkering/Tinkering';
 import Tools from './tools/Tools';
 
 import './App.css';
@@ -42,18 +44,22 @@ function App() {
         <Nav></Nav>
 
         <main className="w3-padding-medium">
-  
+
           <Switch>
+
             <Page exact path="/" component={Home}></Page>
-            <Page path="/teaching" component={Teaching}></Page>
-            <Page path="/research-publishings" component={Research}></Page>
-            <Page path="/speaking-engagements" component={Speaking}></Page>
-            <Page path="/professional-development" component={Professional}></Page>
+
+            <Page path="/teaching" component={Teaching} title="Teaching"></Page>
+            <Page path="/research-publishings" component={Research} title="Research and Publishings"></Page>
+            <Page path="/speaking-engagements" component={Speaking} title="Speaking Engagements"></Page>
+            <Page path="/professional-development" component={Professional} title="Professional Development"></Page>
             <Page path="/about" component={About} title="About Me"></Page>
 
             <Page path="/tools" component={Tools} title="Classroom Tools"></Page>
-
-            <Page path="/industry-projects" component={Industry}></Page>
+            <Page path="/server-setup" component={Server} title="Server Setup"></Page>
+            <Page path="/industry-projects" component={Industry} title="Industry Projects"></Page>
+            <Page path="/tinkering" component={Tinkering} title="Tinkering"></Page>
+            
           </Switch>
 
         </main>

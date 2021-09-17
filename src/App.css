@@ -20,6 +20,25 @@ p, blockquote {
   text-align: justify;
 }
 
+code {
+  color:#00f;
+  border: 1px solid #eee;
+  background-color: #fcfcfc;
+  padding:5px;
+  font-size: 90%;
+  font-weight: normal;
+  display: block;
+  margin:10px 0;
+}
+p code {
+  display: inline-block;
+  margin:0;
+}
+
+pre code.hljs {
+  padding: 1em;
+}
+
 /* YouTube  Styles */
 .ca-embed-container {
   position: relative;
@@ -38,6 +57,9 @@ p, blockquote {
 
 /* Nav Styles */
 
+.ca-clear {
+  clear: both;
+}
 .ca-nav-spacer {
   height: 60px;
 }
@@ -67,6 +89,9 @@ p, blockquote {
 .ca-margin-small-horizontal {
   margin-left:5px;
   margin-right: 5px;
+}
+.ca-no-bottom-margin {
+  margin-bottom: 0;
 }
 
 /* Generic Styles */

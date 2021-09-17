@@ -7,7 +7,6 @@ import EvaluationList from './../components/EvaluationList';
 
 import TeachingTechnologyList from './TeachingTechnologyList';
 
-import mitacsBiotalent from './../images/mitacs-biotalent.jpeg';
 import profile from './../images/profile-self.jpg';
 
 import apache from './../images/topics/apache.png';
@@ -74,11 +73,11 @@ class Teaching extends Component {
         </p>
 
         <p>
-          Code in particular must be learned by <a href="/tinkering.html">doing</a>. By trying, failing, failing some more, understanding, and finally succeeding. In class I usually spend about 20% of the class lecturing coding concepts and the other 80% is spent with sample code, in class exercises, and group activities. 
+          Code in particular must be learned by <Link to="/tinkering">doing</Link>. By trying, failing, failing some more, understanding, and finally succeeding. In class I usually spend about 20% of the class lecturing coding concepts and the other 80% is spent with sample code, in class exercises, and group activities. 
         </p>
 
         <p>
-          I am also an advocate for the use of <a href="/technology-in-the-classroom.html">technology in the classroom</a>. There is a fine balance between using technology appropriately and using technology for technology sake. If used effectively, technology can greatly enhance classroom learning and accessibility.
+          I am also an advocate for the use of <Link to="/technology-in-the-classroom">technology in the classroom</Link>. There is a fine balance between using technology appropriately and using technology for technology sake. If used effectively, technology can greatly enhance classroom learning and accessibility.
         </p>
 
         <hr className="ca-hr" />
@@ -96,7 +95,7 @@ class Teaching extends Component {
         <TeachingTechnologyList technologies={technologies}></TeachingTechnologyList>
 
         <p>
-          One of the best parts about teaching code at a postsecondary institution is the amount of new technology I have to opportunity to work with. I have started a <a href="/learning/list.html">video library</a> of the technology I have worked with.
+          One of the best parts about teaching code at a postsecondary institution is the amount of new technology I have to opportunity to work with. I have started a <Link to="/learning/list">video library</Link> of the technology I have worked with.
         </p>
 
         <hr className="ca-hr" />
