@@ -11,9 +11,11 @@ import Home from './home/Home';
 import Industry from './industry/Industry';
 import Professional from './professional/Professional';
 import Research from './research/Research';
+import ScrollToTop from './components/ScrollToTop';
 import Server from './server/Server';
 import Speaking from './speaking/Speaking';
 import Teaching from './teaching/Teaching';
+import Technology from './technology/Technology';
 import Tinkering from './tinkering/Tinkering';
 import Tools from './tools/Tools';
 
@@ -36,9 +38,11 @@ import stackoverflow from './images/stackoverflow.png';
 import twitter from './images/twitter.jpeg';
 import youtube from './images/youtube.jpeg';
 
+
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop></ScrollToTop>
       <div className="App">
         
         <Nav></Nav>
@@ -59,6 +63,8 @@ function App() {
             <Page path="/server-setup" component={Server} title="Server Setup"></Page>
             <Page path="/industry-projects" component={Industry} title="Industry Projects"></Page>
             <Page path="/tinkering" component={Tinkering} title="Tinkering"></Page>
+
+            <Page path="/technology" component={Technology} title="Technology in the Classroom"></Page>
             
           </Switch>
 

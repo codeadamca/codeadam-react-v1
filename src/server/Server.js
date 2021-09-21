@@ -48,7 +48,6 @@ class Server extends Component {
             <Page path="/server-setup/google-cloud" component={GoogleCloud}></Page>
             <Page path="/server-setup/codeanywhere-cloud" component={Codeanywhere}></Page>
             
-            
           </Switch>
           
   

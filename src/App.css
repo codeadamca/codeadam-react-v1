@@ -134,6 +134,9 @@ pre code.hljs {
 .ca-font-small-fixed {
   font-size: 75%;
 }
+.ca-font-big-fixed {
+  font-size: 200%;
+}
 
 .ca-font-none,
 .ca-font-none:link,
@@ -203,7 +206,7 @@ pre code.hljs {
   font-size: 1.8vmax;
   line-height: 2.2vmax;
 }
-.ca-font-med {
+.ca-font-medium {
   font-size: 4vmax;
   line-height: 4.2vmax;
 }

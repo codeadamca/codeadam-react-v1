@@ -77,7 +77,7 @@ class Teaching extends Component {
         </p>
 
         <p>
-          I am also an advocate for the use of <Link to="/technology-in-the-classroom">technology in the classroom</Link>. There is a fine balance between using technology appropriately and using technology for technology sake. If used effectively, technology can greatly enhance classroom learning and accessibility.
+          I am also an advocate for the use of <Link to="/technology">technology in the classroom</Link>. There is a fine balance between using technology appropriately and using technology for technology sake. If used effectively, technology can greatly enhance classroom learning and accessibility.
         </p>
 
         <hr className="ca-hr" />
