@@ -1,14 +1,15 @@
 import React,{Component} from "react";
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-
 import {Page} from './extensions/Page';
 
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 
 import About from './about/About';
+import Ev3 from './ev3/Ev3';
 import Home from './home/Home';
 import Industry from './industry/Industry';
+import Learning from './learning/Learning';
 import Professional from './professional/Professional';
 import Research from './research/Research';
 import ScrollToTop from './components/ScrollToTop';
@@ -20,24 +21,6 @@ import Tinkering from './tinkering/Tinkering';
 import Tools from './tools/Tools';
 
 import './App.css';
-
-import academia from './images/academia.jpeg';
-import arduino from './images/arduino.png';
-import backgroundArduino from './images/background-arduino.jpg';
-import codeBlock from './images/code-block.png';
-import csharp from './images/csharp.png';
-import facebook from './images/facebook.jpeg';
-import github from './images/github.jpeg';
-import instagram from './images/instagram.jpeg';
-import javascript from './images/javascript.png';
-import json from './images/json.png';
-import linkedin from './images/linkedin.jpeg';
-import mitacsBiotalent from './images/mitacs-biotalent.jpeg';
-import nodejs from './images/nodejs.png';
-import stackoverflow from './images/stackoverflow.png';
-import twitter from './images/twitter.jpeg';
-import youtube from './images/youtube.jpeg';
-
 
 function App() {
   return (
@@ -61,9 +44,11 @@ function App() {
 
             <Page path="/tools" component={Tools} title="Classroom Tools"></Page>
             <Page path="/server-setup" component={Server} title="Server Setup"></Page>
-            <Page path="/industry-projects" component={Industry} title="Industry Projects"></Page>
+            <Page path="/learning" component={Learning} title="Classroom Learning"></Page>
+            <Page path="/ev3" component={Ev3} title="EV3 Resources"></Page>
             <Page path="/tinkering" component={Tinkering} title="Tinkering"></Page>
 
+            <Page path="/industry-projects" component={Industry} title="Industry Projects"></Page>
             <Page path="/technology" component={Technology} title="Technology in the Classroom"></Page>
             
           </Switch>

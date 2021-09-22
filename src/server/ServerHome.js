@@ -16,10 +16,10 @@ import logoPm2 from './images/logo-pm2.png';
 import logoCodeanywhere from './images/logo-codeanywhere.png';
 import logoGoogleCloud from './images/logo-google-cloud.png';
 
-class ServerList extends Component {
+class ServerHome extends Component {
   render() {
     return (
-      <div className="ServerList">
+      <div className="ServerHome">
 
         <h2 className="w3-text-red w3-center">LAMP using the Google Cloud</h2>
 
@@ -135,4 +135,4 @@ class ServerList extends Component {
   }
 }
 
-export default ServerList;
+export default ServerHome;

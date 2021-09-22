@@ -48,10 +48,10 @@ const portfolio = [
 ];
 
 const classroom = [
-  {icon: 'fas fa-code', href: '/learning/list', name: 'Learning'},
+  {icon: 'fas fa-code', href: '/learning', name: 'Learning'},
   {icon: 'fas fa-tools', href: '/tools', name: 'Tools'},
   {icon: 'fas fa-server', href: '/server-setup', name: 'Server Setup'},
-  {icon: 'fas fa-robot', href: '/ev3-resources', name: 'EV3 Resources'},
+  {icon: 'fas fa-robot', href: '/ev3', name: 'EV3 Resources'},
   {icon: 'fas fa-hammer', href: '/tinkering', name: 'Tinkering'}
 ];
 

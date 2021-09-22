@@ -1,5 +1,27 @@
 /* Default Fonts */
 
+code {
+  color:#00f;
+  border: 1px solid #eee;
+  background-color: #fcfcfc;
+  padding:5px;
+  font-size: 90%;
+  font-weight: normal;
+  display: block;
+  margin:10px 0;
+}
+p code {
+  display: inline-block;
+  margin:0;
+}
+
+pre code.hljs {
+  padding: 1em;
+}
+
+
+
+
 body, td, th, input, textarea, option, select {
   font-size: 16px;
   font-family: 'Lora', serif;
@@ -74,6 +96,10 @@ pre code.hljs {
   width: 100%;
   z-index: 20;    
 }
+.ca-margin-tiny-horizontal {
+  margin-left: 2px;
+  margin-right: 2px;
+}
 .ca-margin-small-vertical {
   margin-top:5px;
   margin-bottom: 5px;
@@ -95,6 +121,9 @@ pre code.hljs {
 }
 
 /* Generic Styles */
+.ca-nobr {
+  white-space: nowrap;
+}
 .ca-adjust-nav {
   margin-top: 100px;
 }

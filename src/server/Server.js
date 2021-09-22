@@ -5,7 +5,7 @@ import {Page} from './../extensions/Page';
 
 import Title from './../components/Title';
 
-import ServerList from './ServerList';
+import ServerHome from './ServerHome';
 
 import Composer from './Composer';
 import Git from './Git';
@@ -32,7 +32,7 @@ class Server extends Component {
 
           <Switch>
 
-            <Page exact path="/server-setup" component={ServerList}></Page>
+            <Page exact path="/server-setup" component={ServerHome}></Page>
 
             <Page path="/server-setup/apache-php-mysql" component={Lamp} title="Lamp"></Page>
             <Page path="/server-setup/webmin-firewall" component={Webmin} title="Webmin"></Page>
