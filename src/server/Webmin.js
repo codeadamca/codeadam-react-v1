@@ -1,5 +1,4 @@
 import React,{Component} from "react";
-import {Link} from 'react-router-dom';
 
 import logoWebmin from './images/logo-webmin.png';
 
@@ -40,7 +39,7 @@ class Webmin extends Component {
         <h3>Adjust Firewall</h3>
         <p>
           The Webmin configuration tool uses the URL 
-          <a href="#">https://999.999.999.999:10000</a>
+          <code>https://999.999.999.999:10000</code>
           (use your Google external IP address) so we need to open up port 10000 on the firewall:
         </p>
         <ol>

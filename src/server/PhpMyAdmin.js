@@ -35,7 +35,7 @@ class PhpMyAdmin extends Component {
             <p>
               Visit the URL:
               <br />
-              <a href="#">http://something.domain.com/phpmyadmin</a>
+              <code>http://something.domain.com/phpmyadmin</code>
               <br />
               Use the root MySQL username and password to log in. 
             </p>

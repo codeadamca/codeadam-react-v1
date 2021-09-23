@@ -2,9 +2,9 @@ import React from "react";
 
 function TeachingTechnologyList(props) {
 
-  const content = props.technologies.map((technology) =>
-    <a href={technology.url}>
-      <img src={technology.image} className="w3-image ca-image-small ca-margin-small-vertical ca-margin-small-horizontal" />
+  const content = props.technologies.map((technology, index) =>
+    <a href={technology.url} key={index}>
+      <img src={technology.image} className="w3-image ca-image-small ca-margin-small-vertical ca-margin-small-horizontal" alt="" />
     </a>
   );
 

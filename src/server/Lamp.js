@@ -30,7 +30,7 @@ class Lamp extends Component {
           <br />
           sudo service apache2 restart
         </code>
-        <p>At this point your server should be delivering web pages. Visit your external IP address in a browser <a href="#">http://999.999.999.999</a> to view the default Apache page.</p>
+        <p>At this point your server should be delivering web pages. Visit your external IP address in a browser <code>http://999.999.999.999</code> to view the default Apache page.</p>
 
         <hr className="ca-hr" />
         

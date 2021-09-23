@@ -1,10 +1,9 @@
 import React,{Component} from "react";
 import {Link} from 'react-router-dom';
 
-import ArticleList from "./../components/ArticleList";
 import Title from './../components/Title';
-import EvaluationList from './../components/EvaluationList';
 
+import EvaluationList from './/TeachingEvaluationList';
 import TeachingTechnologyList from './TeachingTechnologyList';
 
 import profile from './../images/profile-self.jpg';

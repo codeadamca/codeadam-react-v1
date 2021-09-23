@@ -1,23 +1,34 @@
 import React from "react";
 
-function TeachingTechnologyList(props) {
+function TeachingEvaluationList(props) {
 
-  const content = props.technologies.map((technology) =>
-    <a href={technology.url}>
-      <img src={technology.image} className="w3-image ca-image-small ca-margin-small-vertical ca-margin-small-horizontal" />
-    </a>
+  const content = props.evaluations.map((evaluation, index) =>
+    <blockquote key={index}>
+      <i className="fas fa-quote-left" aria-hidden="true"></i>
+      &nbsp;
+      {evaluation.content}
+      &nbsp;
+      <i className="fas fa-quote-right" aria-hidden="true"></i>
+    </blockquote>
   );
 
   return (
-    <div className="TeachingTechnologyList w3-center">
+    <div className="TeachingEvaluationList">
       
+      <article className="w3-text-dark-gray ca-container-600">
+
+        <h2 className="w3-text-red">Evaluation of my Teaching</h2>
+        <p>Student feedback is important to me. Here is some of my recent student feedback successes:</p>
+
         {content}
 
-        <hr className="ca-hr" />
+      </article>
+
+      <hr className="ca-hr" />
 
     </div>
   );
   
 }
 
-export default TeachingTechnologyList;
+export default TeachingEvaluationList;

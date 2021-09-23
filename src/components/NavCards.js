@@ -2,8 +2,8 @@ import React from "react";
 
 function NavCards(props) {
 
-  const content = props.links.map((link) =>
-    <div className="w3-cell">
+  const content = props.links.map((link, index) =>
+    <div className="w3-cell" key={index}>
       <i className={link.icon + " fa-3x w3-text-gray w3-padding-16"} aria-hidden="true"></i>
       <br />
       <a href={link.href} className="ca-font-small-fixed">

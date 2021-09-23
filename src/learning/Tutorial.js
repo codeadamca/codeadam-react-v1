@@ -1,15 +1,21 @@
 import React,{Component} from "react";
 
+
+
 class Tutorial extends Component {
+
+  saySomething = (something) => {
+    console.log(something);
+  }
+
   render() {
 
-    fetch('./topics.json')
-    .then((res) => res.json())
-    .then((data) => {
-      console.log('data:', data);
-    })
+    
 
     const { url } = this.props.match.params;
+
+    console.log(url);
+    this.saySomething('test');
 
     return (
 

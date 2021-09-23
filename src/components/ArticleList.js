@@ -7,8 +7,8 @@ import Twitter from './Twitter';
 
 function ArticleList(props) {
 
-  const content = props.articles.map((article) =>
-    <>
+  const content = props.articles.map((article, index) =>
+    <div key={index}>
       <article className="w3-text-dark-gray ca-container-600">
         <h2 className="w3-text-red w3-center">{article.title}</h2>
         {
@@ -46,7 +46,7 @@ function ArticleList(props) {
         </div>
       </article>
       <hr className="ca-hr" />
-    </>
+    </div>
   );
 
   return (
