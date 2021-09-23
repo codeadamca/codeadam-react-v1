@@ -5,14 +5,14 @@ function LearningTopicPageList(props) {
   const content = props.pages.map((page) =>
     <tr>
       <td>
-        <a href={page.url} className="ca-font-tiny-fixed">
+        <a href={"/learning/" + page.url} className="ca-font-tiny-fixed">
           {page.title}
         </a>
       </td>
       <td className="w3-center ca-nobr">
         {
           page.topics.map((topic, index) => 
-            <img src={topic.image} className="w3-image ca-image-icon" />
+            <img src={topic.image} className="w3-image ca-image-icon" alt="" />
           )
         }
       </td>

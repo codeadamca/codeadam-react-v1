@@ -2,9 +2,9 @@ import React from "react";
 
 function AboutJobList(props) {
 
-  const content = props.jobs.map((job) =>
-    <article className="w3-text-dark-gray ca-container-600 ca-margin-medium-vertical">
-      <img src={job.image} className="w3-image" />
+  const content = props.jobs.map((job, index) =>
+    <article className="w3-text-dark-gray ca-container-600 ca-margin-medium-vertical" key={index}>
+      <img src={job.image} className="w3-image" alt="" />
       <p dangerouslySetInnerHTML={{__html: job.description}}></p>
       <div className="ca-font-small-fixed">
         Institution: <a href="job.url">{job.name}</a>

@@ -15,8 +15,8 @@ function ArticleList(props) {
           article.image
           ? 
             article.url 
-            ? <a href={article.url}><img src={article.image} className="w3-image w3-center" /></a>
-            : <img src={article.image} className="w3-image w3-center" />
+            ? <a href={article.url}><img src={article.image} className="w3-image w3-center" alt="" /></a>
+            : <img src={article.image} className="w3-image w3-center" alt="" />
           : null
         }
         {

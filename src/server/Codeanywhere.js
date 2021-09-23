@@ -1,7 +1,5 @@
 import React,{Component} from "react";
 
-import logoPhpMyAdmin from './images/logo-phpmyadmin.png';
-
 class Codeanywhere extends Component {
   render() {
     return (

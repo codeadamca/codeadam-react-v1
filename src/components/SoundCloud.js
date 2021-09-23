@@ -6,6 +6,7 @@ class SoundCloud extends Component {
       <div className="SoundCloud">
         
         <iframe 
+          title={"soundcloud-" + this.props.id}
           width="100%" 
           height="300" 
           scrolling="no" 

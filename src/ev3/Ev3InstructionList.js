@@ -8,10 +8,10 @@ function Ev3InstructionList(props) {
       {
         instruction.external
         ? <a href={instruction.url}>
-            <img src={instruction.image} className="w3-image" />
+            <img src={instruction.image} className="w3-image" alt="" />
           </a>
         : <Link to={instruction.url}>
-            <img src={instruction.image} className="w3-image" />
+            <img src={instruction.image} className="w3-image" alt="" />
           </Link>
       }        
       <h3 className="ca-no-bottom-margin">{instruction.name}</h3>

@@ -1,25 +1,24 @@
 import React,{Component} from "react";
+import {Route, Switch} from 'react-router-dom';
 
-import Title from './../components/Title';
-
-import LearningTopicList from './LearningTopicList';
-
-import topics from './topics.json';
+import LearningHome from './LearningHome';
+import Tutorial from './Tutorial';
 
 class Learning extends Component {
-  render() {
-    return (
-      <div className="Tools w3-container">
+    render() {
+      return (
+        <div className="Server ca-container-600">
+  
+          <div className="ca-nav-spacer w3-hide-small"></div>
 
-        <div className="ca-nav-spacer w3-hide-small"></div>
+          <Switch>
+            <Route exact path="/learning" component={LearningHome} />
+            <Route path="/learning/:url" component={Tutorial} />
+          </Switch>
 
-        <Title title="Learning Code"></Title>
-
-        <LearningTopicList topics={topics}></LearningTopicList>
-
-      </div>
-    );
+        </div>
+      );
+    }
   }
-}
-
-export default Learning;
+  
+  export default Learning;

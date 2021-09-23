@@ -100,6 +100,7 @@ const social = [
 const educations = [
   {
     image: royalRoads, 
+    name: "Royal Roads",
     credits: [
       {
         title: 'Masters of Arts in Learning and Technology',
@@ -110,6 +111,7 @@ const educations = [
   },
   {
     image: humber, 
+    name: "Humber College",
     credits: [
       {
         title: 'Teaching Excellence Program', 

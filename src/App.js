@@ -1,5 +1,5 @@
-import React,{Component} from "react";
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import React from "react";
+import {BrowserRouter, Switch} from 'react-router-dom';
 import {Page} from './extensions/Page';
 
 import Nav from './components/Nav';
@@ -34,7 +34,7 @@ function App() {
 
           <Switch>
 
-            <Page exact path="/" component={Home}></Page>
+            <Page exact path="/" component={Home} title=""></Page>
 
             <Page path="/teaching" component={Teaching} title="Teaching"></Page>
             <Page path="/research-publishings" component={Research} title="Research and Publishings"></Page>

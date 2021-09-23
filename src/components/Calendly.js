@@ -11,7 +11,7 @@ class Calendly extends Component {
 
           <h2 className="w3-text-red">Students: Book an Appointment</h2>
           <a href="https://calendly.com/codeadamca">
-            <img src={logoCalendly} className="ca-image-small" />
+            <img src={logoCalendly} className="ca-image-small" alt="" />
           </a>
 
         </div>

@@ -9,7 +9,7 @@ class CodeAdam extends Component {
 
         <div className="ca-container-600 w3-center">
           <a href="/">
-            <img src={codeBlock} className="ca-image-small" />
+            <img src={codeBlock} className="ca-image-small" alt="" />
           </a>
         </div>
 

@@ -3,12 +3,9 @@ import React from "react";
 function SocialList(props) {
 
   const content = props.links.map((link, index) =>
-    <>
-      {(props.links.length > 8 && index % 6 == 0 && index > 0) ? <br /> : null}
-      <a href={link.url} className="ca-font-none">
-        <img src={link.image} className="ca-image-small ca-margin-small-horizontal ca-margin-small-vertical" />
-      </a>
-    </>
+    <a href={link.url} className="ca-font-none" key={index}>
+      <img src={link.image} className="ca-image-small ca-margin-small-horizontal ca-margin-small-vertical" alt="" />
+    </a>
   );
 
   return (

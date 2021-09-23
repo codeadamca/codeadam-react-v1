@@ -2,9 +2,9 @@ import React from "react";
 
 function NavSocial(props) {
 
-  const content = props.links.map((link) =>
-    <a href={link.url}>
-      <img src={link.image} className="ca-image-icon ca-margin-small-horizontal" />
+  const content = props.links.map((link, index) =>
+    <a href={link.url} key={index}>
+      <img src={link.image} className="ca-image-icon ca-margin-small-horizontal" alt="" />
     </a>
   );
 

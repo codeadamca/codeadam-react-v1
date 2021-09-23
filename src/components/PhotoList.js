@@ -2,9 +2,9 @@ import React from "react";
 
 function PhotoList(props) {
 
-  const content = props.photos.map((photos) =>
-    <div className="w3-col s4">
-      <img src={photos.image} className="w3-image" />
+  const content = props.photos.map((photos, index) =>
+    <div className="w3-col s4" key={index}>
+      <img src={photos.image} className="w3-image" alt="" />
     </div>
   );
 
