@@ -3,6 +3,7 @@ import {Route, Switch} from 'react-router-dom';
 
 import LearningHome from './LearningHome';
 import Tutorial from './Tutorial';
+import TutorialDetails from './TutorialDetails';
 
 class Learning extends Component {
     render() {

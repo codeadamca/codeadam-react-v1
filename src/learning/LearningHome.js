@@ -15,6 +15,13 @@ class Learning extends Component {
 
         <Title title="Learning Code"></Title>
 
+        <article>
+          <h2 className="w3-text-red w3-center">Learning Code, Teaching Code</h2>
+          <p>In an attempt to pass things I have learned on to students and fellow developers (and sometimes to avoid learning the same thing twice), I have attempted to log my learning. Hopefully this list will grow as I continue to learn.</p>
+        </article>
+
+        <hr className="ca-hr" />
+
         <LearningTopicList topics={topics}></LearningTopicList>
 
       </div>

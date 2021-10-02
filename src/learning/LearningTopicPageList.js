@@ -45,7 +45,7 @@ function LearningTopicPageList(props) {
     <div className="LearningTopicPageList">
       
       <div className="w3-container">
-        <table cellpadding="0" cellspacing="0" border="0" className="w3-table w3-bordered ">
+        <table cellPadding="0" cellSpacing="0" border="0" className="w3-table w3-bordered ">
           <tbody>
             {content}
           </tbody>
