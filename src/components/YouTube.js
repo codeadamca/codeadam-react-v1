@@ -5,7 +5,7 @@ class YouTube extends Component {
     return (
       <div className="YouTube">
         
-        <iframe class="embed-video" 
+        <iframe className="embed-video" 
           src={"https://www.youtube.com/embed/" + this.props.id + "?rel=0"} 
           frameborder="0" 
           width="100%"

@@ -8,7 +8,7 @@ class Composer extends Component {
     return (
       <div className="Composer">
           
-        <h2 class="w3-center w3-text-red">Setting Up Composer</h2>
+        <h2 className="w3-center w3-text-red">Setting Up Composer</h2>
 
         <hr className="ca-hr" />
 
@@ -47,7 +47,7 @@ class Composer extends Component {
 
         <img src={composerInstalled} alt="" width="300" />
     
-        <hr class="ca-hr" />
+        <hr className="ca-hr" />
 
         <h3>Add the Vendor Folder to .gitignore</h3>
         <p>Composer will install PHP libraries to the <code>vendor</code> folder. We want to exclude the vendor folder from the GitHub repository:</p>
@@ -80,7 +80,7 @@ class Composer extends Component {
           </li>
         </ol>
 
-        <hr class="ca-hr" />
+        <hr className="ca-hr" />
       
         <h3>Add Our First Library</h3>
         <p>Now that Composer is installed let's add our first library. The only library that we have confirmed using at this point is jQuery, so let’s add that to our dependencies.</p>
@@ -116,7 +116,7 @@ class Composer extends Component {
           </li>
         </ol>
 
-        <hr class="ca-hr" />
+        <hr className="ca-hr" />
         
       </div>
     );

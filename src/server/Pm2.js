@@ -7,7 +7,7 @@ class Pm2 extends Component {
     return (
       <div className="Pm2">      
         
-        <h2 class="w3-center w3-text-red">Installing and Configuring PM2</h2>
+        <h2 className="w3-center w3-text-red">Installing and Configuring PM2</h2>
 
         <hr className="ca-hr" />
         

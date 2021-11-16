@@ -6,9 +6,9 @@ class Nginx extends Component {
     return (
       <div className="Nginx">
       
-        <h2 class="w3-center w3-text-red">Installing Nginx</h2>
+        <h2 className="w3-center w3-text-red">Installing Nginx</h2>
 
-        <hr class="ca-hr" />
+        <hr className="ca-hr" />
 
         <h3>Install Nginx</h3>
 

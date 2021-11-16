@@ -7,7 +7,7 @@ class PhpMyAdmin extends Component {
     return (
       <div className="PhpMyAdmin">
       
-        <h2 class="w3-text-red w3-center">Install phpMyAdmin</h2>
+        <h2 className="w3-text-red w3-center">Install phpMyAdmin</h2>
         <p>To install PHPMyAdmin open up the Google Cloud SSH tool and run the following commands:</p>
         <a href="https://www.phpmyadmin.net/">
           <img src={logoPhpMyAdmin} className="ca-image-medium" alt="" />

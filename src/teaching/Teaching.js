@@ -64,7 +64,7 @@ class Teaching extends Component {
         </div>
 
         <p>
-          I teach code. I have been teaching code at <a href="http://humber.ca/">Humber College</a>since 2002. Currently I teach code in three programs: <a href="https://mediastudies.humber.ca/programs/graphic-design.html">Graphic Design</a>, <a href="https://mediastudies.humber.ca/programs/multimedia-design-and-development.html">Multimedia, Design and Development</a>, and <a href="https://mediastudies.humber.ca/programs/web-design-interactive-media.html">Web Design and Interactive Media</a>. 
+          I teach code. I have been teaching code at <a href="http://humber.ca/">Humber College</a> since 2002. Currently I teach code in three programs: <a href="https://mediastudies.humber.ca/programs/graphic-design.html">Graphic Design</a>, <a href="https://mediastudies.humber.ca/programs/multimedia-design-and-development.html">Multimedia, Design and Development</a>, and <a href="https://mediastudies.humber.ca/programs/web-design-interactive-media.html">Web Design and Interactive Media</a>. 
         </p> 
 
         <p>
