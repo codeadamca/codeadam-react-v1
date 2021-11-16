@@ -8,9 +8,7 @@ import TutorialDetails from './TutorialDetails';
 class Learning extends Component {
     render() {
       return (
-        <div className="Server ca-container-600">
-  
-          <div className="ca-nav-spacer w3-hide-small"></div>
+        <div className="Server">
 
           <Switch>
             <Route exact path="/learning" component={LearningHome} />

@@ -9,7 +9,7 @@ import topics from './topics.json';
 class Learning extends Component {
   render() {
     return (
-      <div className="Learning w3-container">
+      <div className="Learning ca-container-600">
 
         <div className="ca-nav-spacer w3-hide-small"></div>
 

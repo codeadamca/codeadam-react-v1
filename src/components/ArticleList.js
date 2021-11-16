@@ -39,7 +39,7 @@ function ArticleList(props) {
           ? <SoundCloud id={article.soundcloud_id}></SoundCloud>
           : null
         }
-        <p dangerouslySetInnerHTML={{__html: article.content}}></p>
+        <div dangerouslySetInnerHTML={{__html: article.content}}></div>
         <div className="ca-font-small-fixed">
           <ArticleResourceList resources={article.resources}></ArticleResourceList>
           Date: {article.published_at}
