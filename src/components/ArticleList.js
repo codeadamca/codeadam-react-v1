@@ -5,6 +5,8 @@ import Instagram from './Instagram';
 import SoundCloud from './SoundCloud';
 import Twitter from './Twitter';
 
+import Date from './../components/Date';
+
 function ArticleList(props) {
 
   const content = props.articles.map((article, index) =>
@@ -42,7 +44,7 @@ function ArticleList(props) {
         <div dangerouslySetInnerHTML={{__html: article.content}}></div>
         <div className="ca-font-small-fixed">
           <ArticleResourceList resources={article.resources}></ArticleResourceList>
-          Date: {article.published_at}
+          Date: <Date date={article.published_at} />
         </div>
       </article>
       <hr className="ca-hr" />

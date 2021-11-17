@@ -1,5 +1,7 @@
 import React from "react";
 
+import Date from './../components/Date';
+
 function AboutJobList(props) {
 
   const content = props.jobs.map((job, index) =>
@@ -9,7 +11,7 @@ function AboutJobList(props) {
       <div className="ca-font-small-fixed">
         Institution: <a href="job.url">{job.name}</a>
         <br />
-        Date: {job.published_at}
+        Date: <Date date={job.published_at} />
       </div>
     </article>
   );

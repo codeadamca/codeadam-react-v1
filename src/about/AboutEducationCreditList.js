@@ -1,5 +1,7 @@
 import React from "react";
 
+import Date from './../components/Date';
+
 function AboutEducationCreditList(props) {
 
   const content = props.credits.map((credit, index) =>
@@ -8,7 +10,7 @@ function AboutEducationCreditList(props) {
       <p className="ca-font-small-fixed">
         Description: <span dangerouslySetInnerHTML={{__html: credit.description}}></span>
         <br />
-        Date: {credit.published_at}
+        Date: <Date date={credit.published_at} />
       </p>
     </div>
   );
