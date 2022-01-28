@@ -1,10 +1,6 @@
 import React,{Component} from "react";
 
-import Title from './../components/Title';
-
-import ToolsCategory from './ToolsCategory';
-
-class Tools extends Component {
+class ToolsCategory extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -15,13 +11,13 @@ class Tools extends Component {
   }
 
   componentDidMount() {
-    fetch(process.env.REACT_APP_API_URL + "toolTypes")
+    fetch(process.env.REACT_APP_API_URL + "tools/type/" + this.props.type)
       .then(res => res.json())
       .then(
         (result) => {
           this.setState({
             isLoaded: true,
-            types: result
+            tools: result
           });
         },
         (error) => {
@@ -41,25 +37,22 @@ class Tools extends Component {
       return <div>Loading...</div>;
     } else {
       return (
-        <div className="Tools">
+        <div className="ToolsCategory w3-container">
 
-          <div className="ca-nav-spacer w3-hide-small"></div>
-
-          <Title title="Classroom Tools"></Title>
-
-          {this.state.types.map((type, index) => (
-            <>
-              <div className="w3-text-dark-gray ca-container-600 ca-margin-medium-vertical">
-                <h2 className="w3-text-red w3-center">{type.title}</h2>
-                <ToolsCategory type={type.id} ></ToolsCategory>
-              </div>
-              <hr className="ca-hr" />
-            </>
+          {this.state.tools.map((tool, index) => (
+            <article className="w3-half w3-center ca-margin-small-vertical" id={"tool-" + tool.id}>
+              <a href={tool.url}>
+                <img src={process.env.REACT_APP_IMAGE_URL + tool.image} className="w3-image" alt="" />
+              </a>
+              <h3 className="ca-no-bottom-margin">{tool.title}</h3>
+              <a href={tool.url}>{tool.url}</a>
+            </article>
           ))}
+          
         </div>
       );
     }
   }
 }
 
-export default Tools;
+export default ToolsCategory;
