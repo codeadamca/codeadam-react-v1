@@ -1,12 +1,6 @@
 import React,{Component} from "react";
 import {Link} from 'react-router-dom';
 
-import facebook from './../images/facebook.jpeg';
-import instagram from './../images/instagram.jpeg';
-import linkedin from './../images/linkedin.jpeg';
-import twitter from './../images/twitter.jpeg';
-import youtube from './../images/youtube.jpeg';
-
 import NavSocial from './NavSocial';
 
 class Nav extends Component {
@@ -32,7 +26,7 @@ class Nav extends Component {
             </div>
             <div className="w3-cell w3-cell-middle w3-container w3-right-align w3-hide-small w3-hide-medium">
               
-              <NavSocial links={social}></NavSocial>
+              <NavSocial></NavSocial>
 
             </div>
           </div>
@@ -42,13 +36,5 @@ class Nav extends Component {
     );
   }
 }
-
-const social = [
-  {image: facebook, url: 'https://www.facebook.com/adambenjaminthomas'},
-  {image: instagram, url: 'https://www.instagram.com/codeadamca/'},
-  {image: linkedin, url: 'https://www.linkedin.com/in/adam-thomas-6b563012'},
-  {image: twitter, url: 'https://twitter.com/codeadamca'},
-  {image: youtube, url: 'https://www.youtube.com/channel/UCvn-c8MnpjythwWKDi5qMvA'}
-];
 
 export default Nav;

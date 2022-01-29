@@ -1,5 +1,8 @@
 import React,{Component} from "react";
 
+import Error from './../components/Error';
+import Loading from './../components/Loading';
+
 class ToolsCategory extends Component {
   constructor(props) {
     super(props);
@@ -32,9 +35,9 @@ class ToolsCategory extends Component {
   render() {
     const { error, isLoaded, items } = this.state;
     if (error) {
-      return <div>Error: {error.message}</div>;
+      return <Error message={error.message}></Error>;
     } else if (!isLoaded) {
-      return <div>Loading...</div>;
+      return <Loading />;
     } else {
       return (
         <div className="ToolsCategory w3-container">
@@ -42,7 +45,7 @@ class ToolsCategory extends Component {
           {this.state.tools.map((tool, index) => (
             <article className="w3-half w3-center ca-margin-small-vertical" id={"tool-" + tool.id}>
               <a href={tool.url}>
-                <img src={process.env.REACT_APP_IMAGE_URL + tool.image} className="w3-image" alt="" />
+                <img src={tool.image} className="w3-image" alt="" />
               </a>
               <h3 className="ca-no-bottom-margin">{tool.title}</h3>
               <a href={tool.url}>{tool.url}</a>

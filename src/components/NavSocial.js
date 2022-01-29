@@ -1,19 +1,56 @@
-import React from "react";
+import React,{Component} from "react";
 
-function NavSocial(props) {
+import Error from './../components/Error';
+import Loading from './../components/Loading';
 
-  const content = props.links.map((link, index) =>
-    <a href={link.url} key={index}>
-      <img src={link.image} className="ca-image-icon ca-margin-small-horizontal" alt="" />
-    </a>
-  );
+class NavSocial extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      error: null,
+      isLoaded: false,
+      socials: []
+    };
+  }
 
-  return (
-    <div className="NavSocial">
-      {content}
-    </div>
-  );
-  
+  componentDidMount() {
+    fetch(process.env.REACT_APP_API_URL + "socials/header/yes")
+      .then(res => res.json())
+      .then(
+        (result) => {
+          this.setState({
+            isLoaded: true,
+            socials: result
+          });
+        },
+        (error) => {
+          this.setState({
+            isLoaded: true,
+            error
+          });
+        }
+      )
+  }
+
+  render() {
+    const { error, isLoaded, items } = this.state;
+    if (error) {
+      return <Error message={error.message}></Error>;
+    } else if (!isLoaded) {
+      return <Loading />;
+    } else {
+      return (
+        <div className="NavSocial">
+
+          {this.state.socials.map((social, index) => (
+            <a href={social.url} key={index}>
+              <img src={social.image} className="ca-image-icon ca-margin-small-horizontal" alt="" />
+            </a>
+          ))}
+        </div>
+      );
+    }
+  }
 }
 
 export default NavSocial;

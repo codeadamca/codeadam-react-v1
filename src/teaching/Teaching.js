@@ -91,7 +91,7 @@ class Teaching extends Component {
           The best part of being an instructor in the technology field is that the learning never stops. The list of topics I get to teach is continually changing, here are some of the topics I have recently taught in class:
         </p>
 
-        <TeachingTechnologyList technologies={technologies}></TeachingTechnologyList>
+        <TeachingTechnologyList />
 
         <p>
           One of the best parts about teaching code at a postsecondary institution is the amount of new technology I have to opportunity to work with. I have started a <Link to="/learning/list">video library</Link> of the technology I have worked with.
@@ -127,46 +127,6 @@ class Teaching extends Component {
 }
 
 export default Teaching;
-
-const technologies = [
-  {image:apache, url: 'https://httpd.apache.org/'},
-  {image:arduino, url: 'https://www.arduino.cc/'},
-  {image:csharp, url: 'https://docs.microsoft.com/en-us/dotnet/csharp/'},
-  {image:css, url: 'https://www.w3.org/Style/CSS/'},
-  {image:d3, url: 'https://d3js.org/'},
-  {image:es6, url: 'http://es6-features.org/'},
-  {image:express, url: 'https://expressjs.com/'},
-  {image:firebase, url: 'https://firebase.google.com/'},
-  {image:git, url: 'https://git-scm.com/'},
-  {image:github, url: 'https://github.com/'},
-  {image:googleCloud, url: 'https://cloud.google.com/'},
-  {image:heroku, url: 'https://www.heroku.com/'},
-  {image:html, url: 'https://www.w3.org/html/'},
-  {image:javascript, url: 'https://www.w3.org/standards/webdesign/script'},
-  {image:jquery, url: 'https://jquery.com/'},
-  {image:json, url: 'https://www.json.org/'},
-  {image:less, url: 'http://lesscss.org/'},
-  {image:mamp, url: 'https://www.mamp.info/'},
-  {image:mongo, url: 'https://www.mongodb.com/'},
-  {image:mysql, url: 'https://www.mysql.com/'},
-  {image:nginx, url: 'https://www.nginx.com/'},
-  {image:nodejs, url: 'https://nodejs.org/'},
-  {image:npm, url: 'https://www.npmjs.com/'},
-  {image:obs, url: 'https://obsproject.com/'},
-  {image:php, url: 'https://www.php.net/'},
-  {image:pm2, url: 'https://pm2.keymetrics.io/'},
-  {image:pug, url: 'https://pugjs.org/'},
-  {image:python, url: 'https://www.python.org/'},
-  {image:raspberryPi, url: 'https://www.raspberrypi.org/'},
-  {image:react, url: 'https://reactjs.org/'},
-  {image:sass, url: 'https://sass-lang.com/'},
-  {image:scratch, url: 'https://scratch.mit.edu/'},
-  {image:socket, url: 'https://socket.io/'},
-  {image:three, url: 'https://threejs.org/'},
-  {image:typescript, url: 'https://www.typescriptlang.org/'},
-  {image:ubuntu, url: 'https://ubuntu.com/'},
-  {image:wordpress, url: 'https://wordpress.com/'}
-];
 
 const evaluations = [
   {content: 'The professionalism of the professor is admiring, and he seems to genuinely care about seeing his students succeed.'},

@@ -1,5 +1,7 @@
 import React,{Component} from "react";
 
+import Error from './../components/Error';
+import Loading from './../components/Loading';
 import Title from './../components/Title';
 
 import ToolsCategory from './ToolsCategory';
@@ -36,9 +38,9 @@ class Tools extends Component {
   render() {
     const { error, isLoaded, items } = this.state;
     if (error) {
-      return <div>Error: {error.message}</div>;
+      return <Error message={error.message}></Error>;
     } else if (!isLoaded) {
-      return <div>Loading...</div>;
+      return <Loading />;
     } else {
       return (
         <div className="Tools">
