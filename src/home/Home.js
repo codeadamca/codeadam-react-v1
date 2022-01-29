@@ -8,15 +8,13 @@ import NavCards from './../components/NavCards';
 
 import HomeHeader from './HomeHeader';
 
-import articles from './articles.json';
-
 class Home extends Component {
   render() {
     return (
       <div className="Home">
 
         <HomeHeader></HomeHeader>
-        <ArticleList articles={articles}></ArticleList>
+        <ArticleList filter="home" value="yes" social="no"></ArticleList>
         <Calendly></Calendly>
         <NavCards title="Teaching Portfolio" links={portfolio}></NavCards>
         <NavCards title="In the Classroom" links={classroom}></NavCards>

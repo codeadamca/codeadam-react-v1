@@ -3,8 +3,6 @@ import React,{Component} from "react";
 import Title from './../components/Title';
 import ArticleList from './../components/ArticleList';
 
-import articles from './articles.json';
-
 class Speaking extends Component {
   render() {
     return (
@@ -13,7 +11,7 @@ class Speaking extends Component {
         <div className="ca-nav-spacer w3-hide-small"></div>
 
         <Title title="Speaking Engagements"></Title>
-        <ArticleList articles={articles}></ArticleList>
+        <ArticleList filter="type" value="1" social="yes"></ArticleList>
 
       </div>
     );

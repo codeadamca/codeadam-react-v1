@@ -1,13 +1,10 @@
 import React,{Component} from "react";
+import Moment from 'react-moment';
 
 class Date extends Component {
   render() {
     return (
-      <>
-
-        {this.props.date}
-
-      </>
+      <Moment format="MMMM Do, YYYY">{this.props.date}</Moment>
     );
   }
 }

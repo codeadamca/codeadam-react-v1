@@ -22,7 +22,7 @@ class Technology extends Component {
 
         </article>
 
-        <ArticleList articles={articles}></ArticleList>
+        <ArticleList filter="type" value="4" social="yes"></ArticleList>
 
       </div>
     );
