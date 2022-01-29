@@ -54,4 +54,3 @@ class TeachingTechnologyList extends Component {
 }
 
 export default TeachingTechnologyList;
-

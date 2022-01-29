@@ -8,44 +8,6 @@ import TeachingTechnologyList from './TeachingTechnologyList';
 
 import profile from './../images/profile-self.jpg';
 
-import apache from './../images/topics/apache.png';
-import arduino from './../images/topics/arduino.png';
-import csharp from './../images/topics/csharp.png';
-import css from './../images/topics/css.png';
-import d3 from './../images/topics/d3.png';
-import es6 from './../images/topics/es6.png';
-import express from './../images/topics/express.png';
-import firebase from './../images/topics/firebase.png';
-import git from './../images/topics/git.png';
-import github from './../images/topics/github.png';
-import googleCloud from './../images/topics/google-cloud.png';
-import heroku from './../images/topics/heroku.png';
-import html from './../images/topics/html.png';
-import javascript from './../images/topics/javascript.png';
-import jquery from './../images/topics/jquery.png';
-import json from './../images/topics/json.png';
-import less from './../images/topics/less.png';
-import mamp from './../images/topics/mamp.png';
-import mongo from './../images/topics/mongo.png';
-import mysql from './../images/topics/mysql.png';
-import nginx from './../images/topics/nginx.png';
-import nodejs from './../images/topics/nodejs.png';
-import npm from './../images/topics/npm.png';
-import obs from './../images/topics/obs.png';
-import php from './../images/topics/php.png';
-import pm2 from './../images/topics/pm2.png';
-import pug from './../images/topics/pug.png';
-import python from './../images/topics/python.png';
-import raspberryPi from './../images/topics/raspberry-pi.png';
-import react from './../images/topics/react.png';
-import sass from './../images/topics/sass.png';
-import scratch from './../images/topics/scratch.png';
-import socket from './../images/topics/socket.png';
-import three from './../images/topics/three.jpeg';
-import typescript from './../images/topics/typescript.png';
-import ubuntu from './../images/topics/ubuntu.png';
-import wordpress from './../images/topics/wordpress.png';
-
 class Teaching extends Component {
   render() {
     return (
@@ -119,7 +81,7 @@ class Teaching extends Component {
   
         </article>
 
-        <EvaluationList evaluations={evaluations}></EvaluationList>
+        <EvaluationList />
 
       </div>
     );
@@ -127,12 +89,3 @@ class Teaching extends Component {
 }
 
 export default Teaching;
-
-const evaluations = [
-  {content: 'The professionalism of the professor is admiring, and he seems to genuinely care about seeing his students succeed.'},
-  {content: 'No student wants an unfriendly unapproachable teacher. Adam is a breath of fresh air, he is approachable and appears to really care.'},
-  {content: 'The use of technology in the classroom is awesome, especially screen sharing through collaborate!'},
-  {content: 'Super awesome instructor! Extremely smart! Cares about his students, really wants them to succeed. He is great at teaching, really knows how to best approach teaching code to students. Always helping his students! Thanks to him I now have a great job! Than you Adam.'},
-  {content: 'Adam, each year, is a phenomenal professor. He goes at an easy to learn pace, very friendly, and his teacher style is what makes every student want to show up to his classes. Excellent work!'},
-  {content: 'Adam is a beautiful human being, who is my absolute favourite professor. He teaches so nicely, and makes sure we know what we are doing, by explaining LINE FOR LINE what this code does, and codes with us, using notes of course. Adam, it was a pleasure to have you as an instructor, and I\'ll miss seeing you every week, and learning cool new things. I\'d literally love to work for you one day.'}
-];

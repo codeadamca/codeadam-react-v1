@@ -1,34 +1,66 @@
-import React from "react";
+import React,{Component} from "react";
 
-function TeachingEvaluationList(props) {
+import Error from './../components/Error';
+import Loading from './../components/Loading';
 
-  const content = props.evaluations.map((evaluation, index) =>
-    <blockquote key={index}>
-      <i className="fas fa-quote-left" aria-hidden="true"></i>
-      &nbsp;
-      {evaluation.content}
-      &nbsp;
-      <i className="fas fa-quote-right" aria-hidden="true"></i>
-    </blockquote>
-  );
+class TeachingEvaluationList extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      error: null,
+      isLoaded: false,
+      topics: []
+    };
+  }
 
-  return (
-    <div className="TeachingEvaluationList">
-      
-      <article className="w3-text-dark-gray ca-container-600">
+  componentDidMount() {
+    fetch(process.env.REACT_APP_API_URL + "evaluations")
+      .then(res => res.json())
+      .then(
+        (result) => {
+          this.setState({
+            isLoaded: true,
+            evaluations: result
+          });
+        },
+        (error) => {
+          this.setState({
+            isLoaded: true,
+            error
+          });
+        }
+      )
+  }
 
-        <h2 className="w3-text-red">Evaluation of my Teaching</h2>
-        <p>Student feedback is important to me. Here is some of my recent student feedback successes:</p>
+  render() {
+    const { error, isLoaded, items } = this.state;
+    if (error) {
+      return <Error message={error.message}></Error>;
+    } else if (!isLoaded) {
+      return <Loading />;
+    } else {
+      return (
+        <div className="TeachingTechnologyList w3-center">
+          <article className="w3-text-dark-gray ca-container-600">
+            <h2 className="w3-text-red">Evaluation of my Teaching</h2>
+            <p>Student feedback is important to me. Here is some of my recent student feedback successes:</p>
 
-        {content}
-
-      </article>
-
-      <hr className="ca-hr" />
-
-    </div>
-  );
-  
+            {this.state.evaluations.map((evaluation, index) => (
+              <blockquote key={index}>
+                <i className="fas fa-quote-left" aria-hidden="true"></i>
+                &nbsp;
+                {evaluation.content}
+                &nbsp;
+                <i className="fas fa-quote-right" aria-hidden="true"></i>
+              </blockquote>
+            ))}
+          </article>
+          <hr className="ca-hr" />
+        </div>
+      );
+    }
+  }
 }
 
 export default TeachingEvaluationList;
+
