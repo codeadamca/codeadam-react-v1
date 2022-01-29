@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 function NavCards(props) {
 
@@ -6,9 +7,9 @@ function NavCards(props) {
     <div className="w3-cell" key={index}>
       <i className={link.icon + " fa-3x w3-text-gray w3-padding-16"} aria-hidden="true"></i>
       <br />
-      <a href={link.href} className="ca-font-small-fixed">
+      <Link to={link.href} className="ca-font-small-fixed">
         {link.name}
-      </a>
+      </Link>
     </div>
   );
 
