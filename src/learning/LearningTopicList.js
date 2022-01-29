@@ -6,7 +6,7 @@ function LearningTopicList(props) {
 
   const content = props.topics.map((topic, index) =>
     <>
-      <article className="w3-text-dark-gray ca-container-600 ca-margin-medium-vertical">
+      <article className="w3-text-dark-gray ca-container-800 ca-margin-medium-vertical">
         <div className="w3-center">
           <img src={topic.image} className="w3-image ca-image-medium" alt="" />
         </div>

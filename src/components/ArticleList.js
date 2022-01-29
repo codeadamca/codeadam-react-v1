@@ -51,16 +51,18 @@ class ArticleList extends Component {
         <div className="ArticleList">
           {this.state.articles.map((article, index) => (
             <div key={index}>
-              <article className="w3-text-dark-gray ca-container-600">
+              <article className="w3-text-dark-gray ca-container-800">
                 <h2 className="w3-text-red w3-center">{article.title}</h2>
-                {
-                  article.image
-                  ? 
-                    article.url 
-                    ? <a href={article.url}><img src={article.image} className="w3-image w3-center" alt="" /></a>
-                    : <img src={article.image} className="w3-image w3-center" alt="" />
-                  : null
-                }
+                <div className="w3-center">
+                  {
+                    article.image
+                    ? 
+                      article.url 
+                      ? <a href={article.url}><img src={article.image} className="w3-image" alt="" /></a>
+                      : <img src={article.image} className="w3-image" alt="" />
+                    : null
+                  }
+                </div>
                 {
                   article.image && (article.instagram_id || article.twitter_id || article.soundcloud_id)
                   ? <div className="ca-nav-spacer-small"></div>

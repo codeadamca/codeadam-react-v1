@@ -17,7 +17,7 @@ class Teaching extends Component {
 
       <Title title="Teaching"></Title>
 
-      <article className="w3-text-dark-gray ca-container-600">
+      <article className="w3-text-dark-gray ca-container-800">
           
         <h2 className="w3-text-red w3-center">Teaching Philosophy</h2>
 
@@ -45,7 +45,7 @@ class Teaching extends Component {
 
       </article>
 
-      <article className="w3-text-dark-gray ca-container-600">
+      <article className="w3-text-dark-gray ca-container-800">
           
         <h2 className="w3-text-red w3-center">Current Technology</h2>
 
@@ -63,7 +63,7 @@ class Teaching extends Component {
 
       </article>
 
-      <article className="w3-text-dark-gray ca-container-600">
+      <article className="w3-text-dark-gray ca-container-800">
           
           <h2 className="w3-text-red w3-center">Student Industry Projects</h2>
   

@@ -51,7 +51,7 @@ class Tools extends Component {
 
           {this.state.types.map((type, index) => (
             <>
-              <div className="w3-text-dark-gray ca-container-600 ca-margin-medium-vertical">
+              <div className="w3-text-dark-gray ca-container-800 ca-margin-medium-vertical">
                 <h2 className="w3-text-red w3-center">{type.title}</h2>
                 <ToolsCategory type={type.id} ></ToolsCategory>
               </div>

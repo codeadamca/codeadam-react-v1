@@ -68,7 +68,7 @@ class Tutorial extends Component {
 
         <div className="ca-nav-spacer w3-hide-small"></div>
 
-        <div className="ca-container-600">
+        <div className="ca-container-800">
 
           <div className="w3-center ca-font-small-fixed">
 
@@ -108,7 +108,7 @@ class Tutorial extends Component {
 
         </div>
 
-        <div className="ca-container-600 w3-center">
+        <div className="ca-container-800 w3-center">
 
               
             <a href={"https://create.arduino.cc/editor/professoradam/" + this.state.page.arduinoId}>

@@ -7,7 +7,7 @@ class Calendly extends Component {
     return (
       <div className="Calendly">
 
-        <div className="ca-container-600 w3-center">
+        <div className="ca-container-800 w3-center">
 
           <h2 className="w3-text-red">Students: Book an Appointment</h2>
           <a href="https://calendly.com/codeadamca">

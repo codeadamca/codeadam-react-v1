@@ -31,7 +31,7 @@ class About extends Component {
 
         <Title title="About Me"></Title>
 
-        <article className="w3-text-dark-gray ca-container-600">
+        <article className="w3-text-dark-gray ca-container-800">
             
           <h2 className="w3-text-red w3-center">Abstract</h2>
       

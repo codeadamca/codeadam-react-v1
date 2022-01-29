@@ -13,7 +13,7 @@ import Sumo from './Sumo';
 class Ev3 extends Component {
   render() {
     return (
-      <div className="Ev3 ca-container-600">
+      <div className="Ev3 ca-container-800">
 
         <div className="ca-nav-spacer w3-hide-small"></div>
 

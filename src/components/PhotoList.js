@@ -11,7 +11,7 @@ function PhotoList(props) {
   return (
     <div className="PhotoList">
       
-      <article className="ca-container-600 w3-center w3-row">
+      <article className="ca-container-800 w3-center w3-row">
         {content}
       </article>
 

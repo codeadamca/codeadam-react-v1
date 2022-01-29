@@ -24,7 +24,7 @@ import Codeanywhere from './Codeanywhere';
 class Server extends Component {
     render() {
       return (
-        <div className="Server ca-container-600">
+        <div className="Server ca-container-800">
   
           <div className="ca-nav-spacer w3-hide-small"></div>
   

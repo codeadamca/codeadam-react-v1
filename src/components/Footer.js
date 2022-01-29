@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <div className="Footer">
 
-        <div className="ca-container-600 w3-center">
+        <div className="ca-container-800 w3-center">
 
           <Switch>
             <Route path="/server-setup/*">
