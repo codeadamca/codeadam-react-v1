@@ -7,11 +7,12 @@ class YouTube extends Component {
         
         <iframe className="embed-video" 
           src={"https://www.youtube.com/embed/" + this.props.id + "?rel=0"} 
-          frameborder="0" 
+          frameBorder="0" 
+          title={"YouTube-" + this.props.id}
           width="100%"
           height="340"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen></iframe>
+          allowFullScreen></iframe>
 
       </div>
     );

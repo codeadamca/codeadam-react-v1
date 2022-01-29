@@ -14,7 +14,7 @@ class SocialList extends Component {
   }
 
   componentDidMount() {
-    fetch(process.env.REACT_APP_API_URL + "socials/home/yes")
+    fetch(process.env.REACT_APP_API_URL + "socials/" + this.props.location + "/yes")
       .then(res => res.json())
       .then(
         (result) => {
@@ -33,7 +33,7 @@ class SocialList extends Component {
   }
 
   render() {
-    const { error, isLoaded, items } = this.state;
+    const { error, isLoaded } = this.state;
     if (error) {
       return <Error message={error.message}></Error>;
     } else if (!isLoaded) {

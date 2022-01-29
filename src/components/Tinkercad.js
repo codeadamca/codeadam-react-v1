@@ -7,7 +7,8 @@ class Tinkercad extends Component {
         
         <iframe width="100%" height="450" 
           src={"https://www.tinkercad.com/embed/" + this.props.id}
-          frameborder="0" marginwidth="0" 
+          frameBorder="0" marginwidth="0" 
+          title={"Tinkercad-" + this.props.id}
           marginheight="0" scrolling="no"></iframe>
 
       </div>

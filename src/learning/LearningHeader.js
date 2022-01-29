@@ -7,7 +7,7 @@ class LearningHeader extends Component {
   topicList(topics) {
     return (
       <>
-        {topics.map((topic) => <img src={topic.image} width="60" />)}
+        {topics.map((topic) => <img src={topic.image} width="60" alt="" />)}
       </>
     )
   }
@@ -25,7 +25,7 @@ class LearningHeader extends Component {
             <div className="ca-third-content w3-cell-row">
 
               <div className="w3-cell w3-cell-middle w3-container w3-center">
-                <div class={"w3-text-" + (this.props.background == "Light" ? "black" : "white")}>
+                <div class={"w3-text-" + (this.props.background === "Light" ? "black" : "white")}>
                   
                   <h1>{this.props.title}</h1>
                   <TopicList topics={this.props.topics} />                  

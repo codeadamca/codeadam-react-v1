@@ -7,7 +7,8 @@ class Arduino extends Component {
         
         <iframe src={"https://create.arduino.cc/editor/professoradam/" + this.props.id + "/preview?embed"}
           style={{height:"450px",width:"100%",margin:"10px 0"}} 
-          frameborder="0"></iframe>
+          title={"Arduino-" + this.props.id}
+          frameBorder="0"></iframe>
 
       </div>
     );

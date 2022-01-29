@@ -8,18 +8,7 @@ import Title from './../components/Title';
 import AboutEducationList from './AboutEducationList';
 import AboutJobList from './AboutJobList';
 
-import academia from './../images/academia.jpeg';
-import facebook from './../images/facebook.jpeg';
-import flickr from './../images/flickr.jpeg';
-import github from './../images/github.jpeg';
-import instagram from './../images/instagram.jpeg';
-import linkedin from './../images/linkedin.jpeg';
 import profile from './../images/profile.jpg';
-import stackoverflow from './../images/stackoverflow.png';
-import tinkercad from './../images/tinkercad.png';
-import twitch from './../images/twitch.jpeg';
-import twitter from './../images/twitter.jpeg';
-import youtube from './../images/youtube.jpeg';
 
 import instagramAlgonquin from './../images/instagram-algonquin.jpg';
 import instagramArduino from './../images/instagram-arduino.jpg';
@@ -63,7 +52,7 @@ class About extends Component {
         <hr className="ca-hr" />
 
         <PhotoList photos={photos}></PhotoList>
-        <SocialList links={social}></SocialList>
+        <SocialList location="about"></SocialList>
         <AboutEducationList educations={educations}></AboutEducationList>
         <AboutJobList jobs={jobs}></AboutJobList>
 
@@ -81,20 +70,6 @@ const photos = [
   {image: instagramLego},
   {image: instagramNuggets},
   {image: instagramRoot}
-];
-
-const social = [
-  {image: academia, url: 'https://humber.academia.edu/AdamThomas'},
-  {image: facebook, url: 'https://www.facebook.com/adambenjaminthomas'},
-  {image: flickr, url: 'https://www.flickr.com/photos/codeadamca/'},
-  {image: github, url: 'https://github.com/codeadamca'},
-  {image: instagram, url: 'https://www.instagram.com/codeadamca/'},
-  {image: linkedin, url: 'https://www.linkedin.com/in/adam-thomas-6b563012'},
-  {image: stackoverflow, url: 'https://stackoverflow.com/users/9015675/adam'},
-  {image: tinkercad, url: 'https://www.tinkercad.com/users/8gtB0Bov9MA-codeadamca'},
-  {image: twitch, url: 'https://www.twitch.tv/codeadamca'},
-  {image: twitter, url: 'https://twitter.com/codeadamca'},
-  {image: youtube, url: 'https://www.youtube.com/channel/UCvn-c8MnpjythwWKDi5qMvA'}
 ];
 
 const educations = [

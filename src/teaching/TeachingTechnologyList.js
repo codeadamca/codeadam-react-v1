@@ -33,7 +33,7 @@ class TeachingTechnologyList extends Component {
   }
 
   render() {
-    const { error, isLoaded, items } = this.state;
+    const { error, isLoaded } = this.state;
     if (error) {
       return <Error message={error.message}></Error>;
     } else if (!isLoaded) {

@@ -28,7 +28,10 @@ function ArticleList(props) {
         }
         {
           article.instagram_id
-          ? <Instagram id={article.instagram_id}></Instagram>
+          ? <>
+              <Instagram id={article.instagram_id}></Instagram>
+              Instagram: {article.instagram_id}
+            </>
           : null
         }
         {

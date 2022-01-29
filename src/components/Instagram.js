@@ -19,7 +19,7 @@ class Instagram extends Component {
             padding: 0, 
             width: '99.375%'}}>
         </blockquote>
-
+        
       </div>
     );
   }

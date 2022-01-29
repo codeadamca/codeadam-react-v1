@@ -3,8 +3,6 @@ import {Link} from 'react-router-dom';
 
 import topics from './topics.json';
 
-import arduino from './../images/topics/arduino.png';
-
 import Arduino from './../components/Arduino';
 import Tinkercad from './../components/Tinkercad';
 import YouTube from './../components/YouTube';
@@ -25,7 +23,7 @@ class Tutorial extends Component {
         if(page.url === this.props.match.params.url)
         {
           
-          this.state = {
+          this.setState({
             page: {
               url: page.url,
               title: page.title,
@@ -48,7 +46,7 @@ class Tutorial extends Component {
               image: topic.image,
               banner: topic.banner
             },
-          }
+          });
         }
 
       })
