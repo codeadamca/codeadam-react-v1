@@ -52,7 +52,7 @@ class About extends Component {
         <hr className="ca-hr" />
 
         <PhotoList photos={photos}></PhotoList>
-        <SocialList location="about"></SocialList>
+        <SocialList filter="about" value="yes"></SocialList>
         <AboutEducationList educations={educations}></AboutEducationList>
         <AboutJobList jobs={jobs}></AboutJobList>
 

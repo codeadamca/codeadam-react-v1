@@ -21,7 +21,7 @@ class Home extends Component {
         <NavCards title="Teaching Portfolio" links={portfolio}></NavCards>
         <NavCards title="In the Classroom" links={classroom}></NavCards>
         <CodeAdam></CodeAdam>
-        <SocialList location="home"></SocialList>
+        <SocialList filter="home" value="yes"></SocialList>
 
       </div>
     );

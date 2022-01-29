@@ -14,7 +14,7 @@ class SocialList extends Component {
   }
 
   componentDidMount() {
-    fetch(process.env.REACT_APP_API_URL + "socials/" + this.props.location + "/yes")
+    fetch(process.env.REACT_APP_API_URL + "socials/" + this.props.filter + "/" + this.props.value)
       .then(res => res.json())
       .then(
         (result) => {
