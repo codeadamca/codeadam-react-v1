@@ -3,8 +3,6 @@ import React,{Component} from "react";
 import Title from './../components/Title';
 import ArticleList from './../components/ArticleList';
 
-import articles from './articles.json';
-
 class Technology extends Component {
   render() {
     return (
@@ -22,7 +20,7 @@ class Technology extends Component {
 
         </article>
 
-        <ArticleList filter="type" value="4" social="yes"></ArticleList>
+        <ArticleList filter="type" value="6" social="yes"></ArticleList>
 
       </div>
     );

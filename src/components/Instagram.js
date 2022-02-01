@@ -3,7 +3,7 @@ import React,{Component} from "react";
 class Instagram extends Component {
   render() {
     return (
-      <div className="Instagram">
+      <div className="Instagram ca-container-600">
 
         <blockquote 
           className="instagram-media" 

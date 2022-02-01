@@ -44,7 +44,7 @@ class About extends Component {
           </p>
           
           <p>
-            I code for fun. I enjoy spending quiet time <Link to="/learning/list">learning code</Link>; a new language, an old language in a new environment, a new framework, or just tinkering with new technology. 
+            I code for fun. I enjoy spending quiet time <Link to="/learning">learning code</Link>; a new language, an old language in a new environment, a new framework, or just tinkering with new technology. 
           </p>
 
         </article>

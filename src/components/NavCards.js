@@ -16,7 +16,7 @@ function NavCards(props) {
   return (
     <div className="NavCards">
 
-      <div className="ca-container-800 w3-center">
+      <div className="ca-container-600 w3-center">
         <h2 className="w3-text-red">{props.title}</h2>
         <div className="w3-cell-row">
 

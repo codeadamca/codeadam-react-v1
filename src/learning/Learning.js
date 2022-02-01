@@ -11,7 +11,7 @@ class Learning extends Component {
 
           <Switch>
             <Route exact path="/learning" component={LearningHome} />
-            <Route path="/learning/:url" component={Tutorial} />
+            <Route path="/learning/:slug" component={Tutorial} />
           </Switch>
 
         </div>
