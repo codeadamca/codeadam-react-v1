@@ -10,6 +10,7 @@ import Ev3 from './ev3/Ev3';
 import Home from './home/Home';
 import Industry from './industry/Industry';
 import Learning from './learning/Learning';
+import NotFound from './components/NotFound';
 import Professional from './professional/Professional';
 import Research from './research/Research';
 import ScrollToTop from './components/ScrollToTop';
@@ -50,6 +51,8 @@ function App() {
 
             <Page path="/industry-projects" component={Industry} title="Industry Projects"></Page>
             <Page path="/technology" component={Technology} title="Technology in the Classroom"></Page>
+
+            <Page path="*" component={NotFound} title="Page Not Found"></Page>
             
           </Switch>
 
