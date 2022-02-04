@@ -16,6 +16,8 @@ function NavCards(props) {
   return (
     <div className="NavCards">
 
+      <hr className="ca-hr" />
+
       <div className="ca-container-600 w3-center">
         <h2 className="w3-text-red">{props.title}</h2>
         <div className="w3-cell-row">
@@ -24,8 +26,6 @@ function NavCards(props) {
 
         </div>
       </div>
-
-      <hr className="ca-hr" />
 
     </div>
   );

@@ -7,6 +7,8 @@ class Nodejs extends Component {
     return (
       <div className="Nodejs">
 
+        <hr className="ca-hr" />
+
         <h2 className="w3-center w3-text-red">Installing Node.js</h2>
 
         <hr className="ca-hr" />
@@ -65,8 +67,6 @@ class Nodejs extends Component {
           <br />
           sudo chown -R www-data:www-data /var/www
         </code>
-
-        <hr className="ca-hr" />
 
       </div>
     );

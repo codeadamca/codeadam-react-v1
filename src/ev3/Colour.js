@@ -12,6 +12,8 @@ class Colour extends Component {
     return (
       <div className="Colour">
 
+        <hr className="ca-hr" />
+
         <h2 className="w3-text-red w3-center">EV3 Colour Detection Project</h2>
 
         <img src={lineComplete} alt="" className="w3-image" />
@@ -186,8 +188,6 @@ class Colour extends Component {
         <h3>Step 4: Submitting</h3>
 
         <p>Submit both of your your <code>main.py</code> files and a list of group members that were present in Blackboard.</p>
-
-        <hr className="ca-hr" />
 
         <script>hljs.initHighlightingOnLoad();</script>
 

@@ -42,6 +42,7 @@ class TeachingEvaluationList extends Component {
       return (
         <div className="TeachingTechnologyList w3-center">
           <article className="w3-text-dark-gray ca-container-800">
+            <hr className="ca-hr" />
             <h2 className="w3-text-red">Evaluation of my Teaching</h2>
             <p>Student feedback is important to me. Here is some of my recent student feedback successes:</p>
 
@@ -55,7 +56,6 @@ class TeachingEvaluationList extends Component {
               </blockquote>
             ))}
           </article>
-          <hr className="ca-hr" />
         </div>
       );
     }

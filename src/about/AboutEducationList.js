@@ -14,9 +14,9 @@ function AboutEducationList(props) {
   return (
     <div className="AboutEducationList">
       
-        {content}
+      <hr className="ca-hr" />
 
-        <hr className="ca-hr" />
+      {content}
 
     </div>
   );

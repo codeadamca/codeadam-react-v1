@@ -41,14 +41,19 @@ class SocialList extends Component {
     } else {
       return (
         <div className="SocialList">
+
           <article className="ca-container-800 w3-center">
+
+            <hr className="ca-hr" />
+
             {this.state.socials.map((social, index) => (
               <a href={social.url} className="ca-font-none" key={index}>
                 <img src={social.image} className="ca-image-small ca-margin-small-horizontal ca-margin-small-vertical" alt="" />
               </a>
             ))}
+
           </article>
-          <hr className="ca-hr" />
+
         </div>
       );
     }

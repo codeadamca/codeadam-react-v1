@@ -46,7 +46,6 @@ class TeachingTechnologyList extends Component {
             <img src={topic.image} className="w3-image ca-image-small ca-margin-small-vertical ca-margin-small-horizontal" alt="" />
             </a>
           ))}
-          <hr className="ca-hr" />
         </div>
       );
     }

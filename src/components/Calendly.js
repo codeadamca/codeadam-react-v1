@@ -9,14 +9,14 @@ class Calendly extends Component {
 
         <div className="ca-container-800 w3-center">
 
+          <hr className="ca-hr" />
+
           <h2 className="w3-text-red">Students: Book an Appointment</h2>
           <a href="https://calendly.com/codeadamca">
             <img src={logoCalendly} className="ca-image-small" alt="" />
           </a>
 
         </div>
-
-        <hr className="ca-hr" />
 
       </div>
     );

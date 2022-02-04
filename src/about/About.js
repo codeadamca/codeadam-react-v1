@@ -33,6 +33,8 @@ class About extends Component {
 
         <article className="w3-text-dark-gray ca-container-800">
             
+          <hr className="ca-hr" />
+
           <h2 className="w3-text-red w3-center">Abstract</h2>
       
           <div className="w3-center">
@@ -48,8 +50,6 @@ class About extends Component {
           </p>
 
         </article>
-
-        <hr className="ca-hr" />
 
         <PhotoList photos={photos}></PhotoList>
         <SocialList filter="about" value="yes"></SocialList>

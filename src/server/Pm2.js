@@ -7,6 +7,8 @@ class Pm2 extends Component {
     return (
       <div className="Pm2">      
         
+        <hr className="ca-hr" />
+
         <h2 className="w3-center w3-text-red">Installing and Configuring PM2</h2>
 
         <hr className="ca-hr" />
@@ -46,8 +48,6 @@ class Pm2 extends Component {
         <code>
           pm2 restart index
         </code>
-        
-        <hr className="ca-hr" />
         
       </div>
     );

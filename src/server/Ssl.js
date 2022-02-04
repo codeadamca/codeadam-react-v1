@@ -7,6 +7,8 @@ class Ssl extends Component {
     return (
       <div className="Ssl">
       
+        <hr className="ca-hr" />
+
         <h2 className="w3-center w3-text-red">Installing an SSL</h2>
         <p>Let's Encrypt is a certificate authority that offers free SSL certificates through an automated process.</p>
         <a href="https://letsencrypt.org/">
@@ -18,9 +20,7 @@ class Ssl extends Component {
             https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04
           </a>
         </p>
-
-        <hr className="ca-hr" />
-        
+ 
       </div>
     );
   }

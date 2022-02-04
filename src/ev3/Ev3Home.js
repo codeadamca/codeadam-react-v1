@@ -12,6 +12,8 @@ class Ev3Home extends Component {
     return (
       <div className="Ev3Home">
 
+        <hr className="ca-hr" />
+
         <h2 className="w3-text-red w3-center">EV3 Building Instructions</h2>
 
         <Ev3InstructionList instructions={instructions}></Ev3InstructionList>
@@ -50,8 +52,6 @@ class Ev3Home extends Component {
             </a>
           </li>
         </ul>
-        
-        <hr className="ca-hr" />
 
       </div>
     );
@@ -85,7 +85,7 @@ const instructions = [
   {
     name: 'EV3 Coder Tool',
     image:tool, 
-    url: 'https://codeadam.ca/tools/ev3/',
+    url: 'http://pages.codeadam.ca/ev3-coder',
     text: 'Open Coder Tool',
     external: true
   }

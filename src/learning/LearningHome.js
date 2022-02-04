@@ -49,6 +49,9 @@ class LearningHome extends Component {
           <div className="ca-nav-spacer w3-hide-small"></div>
 
           <Title title="Learning Code, Teaching Code"></Title>
+
+          <hr className="ca-hr" />
+
           <p>In an attempt to pass things I have learned on to students and fellow developers (and sometimes to avoid learning the same thing twice), I have attempted to log my learning. Hopefully this list will grow as I continue to learn.</p>
 
           <hr className="ca-hr" />
@@ -61,7 +64,6 @@ class LearningHome extends Component {
                 </div>
                 <LearningTopicPageList topic={topic.id}></LearningTopicPageList>
               </article>
-              <hr className="ca-hr" />
             </div>
           ))}
         </div>

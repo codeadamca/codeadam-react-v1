@@ -11,6 +11,8 @@ class Sumo extends Component {
     return (
       <div className="Sumo">
 
+        <hr className="ca-hr" />
+
         <h2 className="w3-text-red w3-center">EV3 Sumo Robot Project</h2>
 
         <img src={gateComplete} alt="" className="w3-image" />
@@ -178,8 +180,6 @@ class Sumo extends Component {
         <h3>Step 4: Submitting</h3>
 
         <p>Submit your <code>main.py</code> files and a list of group members that were present in Blackboard.</p>
-
-        <hr className="ca-hr" />
 
         <script>hljs.initHighlightingOnLoad();</script>
 

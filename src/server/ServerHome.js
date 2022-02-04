@@ -21,6 +21,8 @@ class ServerHome extends Component {
     return (
       <div className="ServerHome">
 
+        <hr className="ca-hr" />
+
         <h2 className="w3-text-red w3-center">LAMP using the Google Cloud</h2>
 
         <p>
@@ -127,8 +129,6 @@ class ServerHome extends Component {
           <a href="https://cloud.google.com/"><img src={logoGoogleCloud} alt="" className="ca-image-small ca-margin-small-horizontal" /></a>
           <a href="https://codeanywhere.com/"><img src={logoCodeanywhere} alt="" className="ca-image-small ca-margin-small-horizontal" /></a>
         </div>
-        
-        <hr className="ca-hr" />
 
       </div>
     );

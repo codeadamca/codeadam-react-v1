@@ -11,6 +11,8 @@ class Parking extends Component {
     return (
       <div className="Parking">
               
+        <hr className="ca-hr" />
+
         <h2 className="w3-text-red w3-center">EV3 Gate Project</h2>
 
         <img src={gateComplete} alt="" className="w3-image" />
@@ -158,8 +160,6 @@ class Parking extends Component {
         <h3>Step 5: Submitting</h3>
 
         <p>Submit your <code>main.py</code> file and a list of group members that were present in Blackboard.</p>
-
-        <hr className="ca-hr" />
 
         <script>hljs.initHighlightingOnLoad();</script>
 

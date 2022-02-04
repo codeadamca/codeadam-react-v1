@@ -9,6 +9,8 @@ class Footer extends Component {
 
         <div className="ca-container-800 w3-center">
 
+          <hr className="ca-hr"></hr>
+
           <Switch>
             <Route path="/server-setup/*">
               <Link to="/server-setup" className="ca-pt-sans ca-font-none ca-font-big-fixed">

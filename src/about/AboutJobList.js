@@ -18,10 +18,10 @@ function AboutJobList(props) {
 
   return (
     <div className="AboutJobList">
-      
-        {content}
 
-        <hr className="ca-hr" />
+      <hr className="ca-hr" />
+
+      {content}
 
     </div>
   );

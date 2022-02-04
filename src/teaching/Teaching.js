@@ -19,6 +19,8 @@ class Teaching extends Component {
 
       <article className="w3-text-dark-gray ca-container-800">
           
+        <hr className="ca-hr" />          
+        
         <h2 className="w3-text-red w3-center">Teaching Philosophy</h2>
 
         <div className="w3-center">
@@ -41,11 +43,11 @@ class Teaching extends Component {
           I am also an advocate for the use of <Link to="/technology">technology in the classroom</Link>. There is a fine balance between using technology appropriately and using technology for technology sake. If used effectively, technology can greatly enhance classroom learning and accessibility.
         </p>
 
-        <hr className="ca-hr" />
-
       </article>
 
       <article className="w3-text-dark-gray ca-container-800">
+
+        <hr className="ca-hr" />
           
         <h2 className="w3-text-red w3-center">Current Technology</h2>
 
@@ -59,11 +61,11 @@ class Teaching extends Component {
           One of the best parts about teaching code at a postsecondary institution is the amount of new technology I have to opportunity to work with. I have started a <Link to="/learning/list">video library</Link> of the technology I have worked with.
         </p>
 
-        <hr className="ca-hr" />
-
       </article>
 
       <article className="w3-text-dark-gray ca-container-800">
+
+          <hr className="ca-hr" />
           
           <h2 className="w3-text-red w3-center">Student Industry Projects</h2>
   
@@ -76,8 +78,6 @@ class Teaching extends Component {
             &nbsp;
             <Link to="/industry-projects">View Industry Projects</Link>
           </div>
-
-          <hr className="ca-hr" />
   
         </article>
 

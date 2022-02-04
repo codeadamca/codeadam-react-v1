@@ -10,6 +10,8 @@ class Lamp extends Component {
     return (
       <div className="Lamp">
         
+        <hr className="ca-hr" />
+
         <h2 className="w3-text-red w3-center">Installing Apache, PHP and MySQL</h2>
 
         <hr className="ca-hr" />
@@ -103,8 +105,6 @@ class Lamp extends Component {
         </ol>
         <p>Visit your subdomain in a browser and you should see your index file.</p>
         
-        <hr className="ca-hr" />
-
       </div>
     );
   }

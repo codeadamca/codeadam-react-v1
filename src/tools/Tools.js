@@ -49,6 +49,8 @@ class Tools extends Component {
 
           <Title title="Classroom Tools"></Title>
 
+          <hr className="ca-hr" />
+
           {this.state.types.map((type, index) => (
             <>
               <div className="w3-text-dark-gray ca-container-800 ca-margin-medium-vertical">

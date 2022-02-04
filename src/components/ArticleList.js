@@ -52,6 +52,7 @@ class ArticleList extends Component {
           {this.state.articles.map((article, index) => (
             <div key={index}>
               <article className="w3-text-dark-gray ca-container-800">
+                <hr className="ca-hr" />
                 <h2 className="w3-text-red w3-center">{article.title}</h2>
                 <div className="w3-center">
                   {
@@ -89,7 +90,6 @@ class ArticleList extends Component {
                   Date: <Date date={article.published_at} />
                 </div>
               </article>
-              <hr className="ca-hr" />
             </div>
           ))}
         </div>

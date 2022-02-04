@@ -7,6 +7,8 @@ class Webmin extends Component {
     return (
       <div className="Webmin">
         
+        <hr className="ca-hr" />
+
         <h2 className="w3-center w3-text-red">Install Webmin and Open Firewall</h2>
 
         <hr className="ca-hr" />
@@ -79,8 +81,6 @@ class Webmin extends Component {
         <h3>MySQL in Webmin</h3>
         <p>Log in to Webmin and go to <strong>Servers</strong> and then <strong>MySQL Database Server</strong>. Enter your password and Webmin is now configured for MySQL.</p>
         
-        <hr className="ca-hr" />
-    
       </div>
     );
   }

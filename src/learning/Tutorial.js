@@ -123,8 +123,6 @@ class Tutorial extends Component {
 
             <TopicList topics={this.state.page.topics} />
 
-            <hr className="ca-hr" />
-
           </div>       
 
       </div>

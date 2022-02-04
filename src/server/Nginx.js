@@ -6,6 +6,8 @@ class Nginx extends Component {
     return (
       <div className="Nginx">
       
+        <hr className="ca-hr" />
+
         <h2 className="w3-center w3-text-red">Installing Nginx</h2>
 
         <hr className="ca-hr" />
@@ -94,8 +96,6 @@ class Nginx extends Component {
           </li>
         </ol>
         <p>Now if you visit your subdomain you will see the <strong>Hello World!</strong> message from the <code>index</code> NodeJS application.</p>
-
-        <hr className="ca-hr" />
 
       </div>
     );

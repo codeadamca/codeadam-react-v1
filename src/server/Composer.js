@@ -8,6 +8,8 @@ class Composer extends Component {
     return (
       <div className="Composer">
           
+        <hr className="ca-hr" />
+
         <h2 className="w3-center w3-text-red">Setting Up Composer</h2>
 
         <hr className="ca-hr" />
@@ -115,8 +117,6 @@ class Composer extends Component {
             </code>
           </li>
         </ol>
-
-        <hr className="ca-hr" />
         
       </div>
     );
