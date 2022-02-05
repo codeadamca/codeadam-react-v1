@@ -4,7 +4,6 @@ class SoundCloud extends Component {
   render() {
     return (
       <div className="SoundCloud">
-        
         <iframe 
           title={"soundcloud-" + this.props.id}
           width="100%" 

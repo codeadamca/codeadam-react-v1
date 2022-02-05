@@ -9,8 +9,6 @@ class Title extends Component {
           {this.props.title && <h1 className="w3-text-dark-grey">{this.props.title}</h1>}
         </div>
 
-        <hr className="ca-hr" />
-
       </div>
     );
   }
