@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Page = ({ title, ...rest }) => {
   useEffect(() => {
-    document.title = (title ? title + " | " : "") + "Adam Thomas";
+    document.title = (title ? title + " | " : "") + process.env.REACT_APP_TITLE;
   });
   return <Route {...rest} />;
 };
