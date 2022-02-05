@@ -3,6 +3,8 @@ import {BrowserRouter, Switch} from 'react-router-dom';
 import {Page} from './extensions/Page';
 
 import Nav from './components/Nav';
+import NotFound from './components/NotFound';
+import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 
 import About from './about/About';
@@ -10,14 +12,13 @@ import Ev3 from './ev3/Ev3';
 import Home from './home/Home';
 import Industry from './industry/Industry';
 import Learning from './learning/Learning';
-import NotFound from './components/NotFound';
 import Professional from './professional/Professional';
 import Research from './research/Research';
-import ScrollToTop from './components/ScrollToTop';
 import Server from './server/Server';
 import Speaking from './speaking/Speaking';
 import Teaching from './teaching/Teaching';
 import Technology from './technology/Technology';
+import Tep from './tep/Tep';
 import Tinkering from './tinkering/Tinkering';
 import Tools from './tools/Tools';
 
@@ -51,6 +52,7 @@ function App() {
 
             <Page path="/industry-projects" component={Industry} title="Industry Projects"></Page>
             <Page path="/technology" component={Technology} title="Technology in the Classroom"></Page>
+            <Page path="/tep" component={Tep} title="REP Requirements"></Page>
 
             <Page path="*" component={NotFound} title="Page Not Found"></Page>
             

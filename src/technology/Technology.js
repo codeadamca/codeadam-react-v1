@@ -14,9 +14,9 @@ class Technology extends Component {
 
         <article className="w3-text-dark-gray ca-container-800">
 
+          <hr className="ca-hr" />
           <p>I believe that technology can be used to vastly improve student engagement and learning. However, technology should be never be used for technology sake.</p>
           <p>Below are a list of technologies I have successfully integrated into my classroom:</p>
-          <hr className="ca-hr" />
 
         </article>
 
