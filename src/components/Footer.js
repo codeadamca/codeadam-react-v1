@@ -24,7 +24,7 @@ class Footer extends Component {
             </Route>
           </Switch>
 
-        </div>
+        </div>        
         
       </div>
     );

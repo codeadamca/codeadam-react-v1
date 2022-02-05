@@ -13,7 +13,7 @@ class Meme extends Component {
             : null
           }
 
-          <img src={this.props.image} className="w3-image" />
+          <img src={this.props.image} className="w3-image" alt="" />
 
           <br />
           

@@ -3,7 +3,7 @@ import React,{Component} from "react";
 class Instagram extends Component {
   render() {
     return (
-      <div className="Instagram ca-container-600">
+      <div className="Instagram">
 
         <blockquote 
           className="instagram-media" 
@@ -19,7 +19,7 @@ class Instagram extends Component {
             padding: 0, 
             width: '99.375%'}}>
         </blockquote>
-        
+
       </div>
     );
   }

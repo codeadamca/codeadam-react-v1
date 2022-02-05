@@ -17,6 +17,8 @@ function PhotoList(props) {
         {content}
       </article>
 
+      
+
     </div>
   );
   
