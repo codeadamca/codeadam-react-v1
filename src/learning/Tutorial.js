@@ -102,22 +102,25 @@ class Tutorial extends Component {
 
         <div className="ca-container-800 w3-center">
 
-              
-            <a href={"https://create.arduino.cc/editor/professoradam/" + this.state.page.arduinoId}>
-              <i className="w3-padding-small fas fa-infinity fa-2x" aria-hidden="true"></i>
-            </a>
+            {this.state.page.arduino_id ? 
+              <a href={"https://create.arduino.cc/editor/professoradam/" + this.state.page.arduino_id}>
+                <i className="w3-padding-small fas fa-infinity fa-2x" aria-hidden="true"></i>
+              </a> : null}
 
-            <a href={"https://github.com/codeadamca/" + this.state.page.githubId}>
-              <i className="w3-padding-small fab fa-github fa-2x" aria-hidden="true"></i>
-            </a>
+            {this.state.page.github_id ? 
+              <a href={"https://github.com/codeadamca/" + this.state.page.github_id}>
+                <i className="w3-padding-small fab fa-github fa-2x" aria-hidden="true"></i>
+              </a>: null}
 
-            <a href={"https://www.tinkercad.com/things/" + this.state.page.tinkercadId}>
-              <i className="w3-padding-small fas fa-th fa-2x" aria-hidden="true"></i>
-            </a>    
+            {this.state.page.tinkercad_id ? 
+              <a href={"https://www.tinkercad.com/things/" + this.state.page.tinkercad_id}>
+                <i className="w3-padding-small fas fa-th fa-2x" aria-hidden="true"></i>
+              </a> : null }
 
-            <a href={"https://www.youtube.com/watch?v=" + this.state.page.youtubeId}>
-              <i className="w3-padding-small fab fa-youtube fa-2x" aria-hidden="true"></i>
-            </a>
+            {this.state.page.youtube_id ? 
+              <a href={"https://www.youtube.com/watch?v=" + this.state.page.youtube_id}>
+                <i className="w3-padding-small fab fa-youtube fa-2x" aria-hidden="true"></i>
+              </a> : null }
 
             <hr className="ca-hr" />
 
