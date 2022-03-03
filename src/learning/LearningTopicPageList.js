@@ -56,7 +56,10 @@ class LearningTopicPageList extends Component {
                     <td className="w3-center ca-nobr">
                       {
                         page.topics.map((topic, index) => 
-                          <img src={topic.image} className="w3-image ca-image-icon" alt="" key={index} />
+                          <>
+                            <img src={topic.image} className="w3-image ca-image-icon" alt="" key={index} />
+                            &nbsp;
+                          </>
                         )
                       }
                     </td>
