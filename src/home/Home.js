@@ -6,6 +6,7 @@ import CodeAdam from './../components/CodeAdam';
 import SocialList from './../components/SocialList';
 import NavCards from './../components/NavCards';
 
+import Contributions from './Contributions';
 import HomeHeader from './HomeHeader';
 
 class Home extends Component {
@@ -15,6 +16,7 @@ class Home extends Component {
 
         <HomeHeader></HomeHeader>
         <ArticleList filter="home" value="yes" social="no"></ArticleList>
+        <Contributions></Contributions>
         <Calendly></Calendly>
         <NavCards title="Teaching Portfolio" links={portfolio}></NavCards>
         <NavCards title="In the Classroom" links={classroom}></NavCards>
