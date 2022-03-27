@@ -17,7 +17,7 @@ function AboutEducationCreditList(props) {
 
   return (
     <div className="AboutEducationCreditList">
-      
+
         {content}
 
     </div>

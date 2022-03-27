@@ -21,6 +21,8 @@ function AboutJobList(props) {
 
       <hr className="ca-hr" />
 
+      <h2 className="w3-text-red w3-center">Industry Experience</h2>
+
       {content}
 
     </div>

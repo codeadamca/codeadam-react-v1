@@ -16,6 +16,8 @@ function AboutEducationList(props) {
       
       <hr className="ca-hr" />
 
+      <h2 className="w3-text-red w3-center">Education</h2>
+
       {content}
 
     </div>
