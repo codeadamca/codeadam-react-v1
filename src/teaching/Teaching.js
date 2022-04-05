@@ -5,6 +5,7 @@ import Title from './../components/Title';
 
 import EvaluationList from './/TeachingEvaluationList';
 import TeachingTechnologyList from './TeachingTechnologyList';
+import TeachingAssignmentList from './TeachingAssignmentList';
 
 import profile from './../images/profile-self.jpg';
 
@@ -62,6 +63,8 @@ class Teaching extends Component {
         </p>
 
       </article>
+
+      <TeachingAssignmentList />
 
       <article className="w3-text-dark-gray ca-container-800">
 
