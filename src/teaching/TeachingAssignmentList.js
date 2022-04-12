@@ -43,7 +43,7 @@ class TeachingAssignmentList extends Component {
         <div className="TeachingAssignmentList w3-center">
           <article className="w3-text-dark-gray ca-container-800">
             <hr className="ca-hr" />
-            <h2 className="w3-text-red w3-center">Sample Assigmments</h2>
+            <h2 className="w3-text-red w3-center">Sample Assignments</h2>
 
             <div class="w3-cell-row">
 
