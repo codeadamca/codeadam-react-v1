@@ -2,10 +2,12 @@ import React,{Component} from "react";
 import {Link} from 'react-router-dom';
 
 import Title from './../components/Title';
+import TopicList from './../learning/TopicList';
 
 import EvaluationList from './/TeachingEvaluationList';
 import TeachingTechnologyList from './TeachingTechnologyList';
 import TeachingAssignmentList from './TeachingAssignmentList';
+import TeachingCourseList from './TeachingCourseList';
 
 import profile from './../images/profile-self.jpg';
 
@@ -64,6 +66,7 @@ class Teaching extends Component {
 
       </article>
 
+      <TeachingCourseList />
       <TeachingAssignmentList />
 
       <article className="w3-text-dark-gray ca-container-800">
