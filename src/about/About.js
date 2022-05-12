@@ -52,7 +52,7 @@ class About extends Component {
         </article>
 
         <PhotoList photos={photos}></PhotoList>
-        <SocialList filter="about" value="yes"></SocialList>
+        <SocialList filter="about" value="yes" br="yes"></SocialList>
         <AboutEducationList educations={educations}></AboutEducationList>
         <AboutJobList jobs={jobs}></AboutJobList>
 
