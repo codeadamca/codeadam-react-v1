@@ -47,7 +47,7 @@ class TeachingAssignmentList extends Component {
 
             <div class="w3-cell-row">
 
-              {this.state.assignments.map((assignment, index) => (
+              {this.state.assignments.map((assignment, index) => index < 4 && (
                 <div class="w3-cell w3-padding w3-center">
                   <a href={assignment.url}>
                     <img src={assignment.image} className="w3-image" alt="" />
