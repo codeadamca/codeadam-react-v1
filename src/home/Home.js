@@ -18,9 +18,9 @@ class Home extends Component {
         <ArticleList filter="home" value="yes" social="no"></ArticleList>
         <NavCards title="Teaching Portfolio" links={portfolio}></NavCards>
         <NavCards title="In the Classroom" links={classroom}></NavCards>
-        <CodeAdam></CodeAdam>
         <Contributions></Contributions>
         <SocialList filter="home" value="yes"></SocialList>
+        <CodeAdam></CodeAdam>
 
       </div>
     );
