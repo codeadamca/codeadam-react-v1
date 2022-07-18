@@ -1,4 +1,4 @@
-# codeadam-react
+# The React Frontend for codeadam.ca
 
 This repository stores a React version of the codeadam.ca front-end. The pages include samples of each different layout style using React and w3.css. All database content is currently stored in JSON files.
 
