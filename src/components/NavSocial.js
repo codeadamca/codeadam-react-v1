@@ -44,7 +44,9 @@ class NavSocial extends Component {
 
           {this.state.socials.map((social, index) => (
             <a href={social.url} key={index}>
-              <img src={social.image} className="ca-image-icon ca-margin-small-horizontal" alt="" />
+              <img src={social.image} 
+                className="ca-image-icon ca-margin-small-horizontal" 
+                alt={social.title + ' logo'} />
             </a>
           ))}
         </div>

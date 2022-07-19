@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom';
 
 import NavSocial from './NavSocial';
 
+import codeBlockWhite from './../images/code-block-white.png';
+
 class Nav extends Component {
   render() {
     return (
@@ -14,7 +16,9 @@ class Nav extends Component {
 
               {process.env.REACT_APP_CODEADAMCA
                 ? <>
-                  <Link to="/" className="w3-text-white ca-pt-sans ca-font-none">&#8962;</Link>
+                  <Link to="/" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">
+                    <img src={codeBlockWhite} className="ca-image-icon" alt="Code Adam Logo" width="" />
+                  </Link>
                   <Link to="/teaching" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Teaching</Link>
                   <span className="w3-text-white ca-pt-sans">|</span>
                   <Link to="/research-publishings" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Research and Publishings</Link>
