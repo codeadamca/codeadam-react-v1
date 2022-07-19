@@ -59,8 +59,8 @@ class ArticleList extends Component {
                     article.image
                     ? 
                       article.url 
-                      ? <a href={article.url}><img src={article.image} className="w3-image" alt="" /></a>
-                      : <img src={article.image} className="w3-image" alt="" />
+                      ? <a href={article.url}><img src={article.image} className="w3-image" alt={article.title} /></a>
+                      : <img src={article.image} className="w3-image" alt={article.title} />
                     : null
                   }
                 </div>

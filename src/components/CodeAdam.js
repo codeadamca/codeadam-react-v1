@@ -12,7 +12,7 @@ class CodeAdam extends Component {
           <hr className="ca-hr" />
 
           <a href="https://codeadam.ca">
-            <img src={codeBlock} className="ca-image-small" alt="" />
+            <img src={codeBlock} className="ca-image-small" alt="Code Adam Logo" />
           </a>
         </div>
 
