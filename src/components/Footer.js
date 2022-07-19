@@ -13,12 +13,12 @@ class Footer extends Component {
 
           <Switch>
             <Route path="/server-setup/*">
-              <Link to="/server-setup" className="ca-pt-sans ca-font-none ca-font-big-fixed">
+              <Link to="/server-setup" className="ca-pt-sans ca-font-none ca-font-big-fixed" aria-hidden="true">
                 &#9666;
               </Link>
             </Route>
             <Route path="/">
-              <Link to="/" className="ca-pt-sans ca-font-none ca-font-big-fixed">
+              <Link to="/" className="ca-pt-sans ca-font-none ca-font-big-fixed" aria-hidden="true">
                 &#8962;
               </Link>
             </Route>
