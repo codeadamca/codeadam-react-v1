@@ -8,7 +8,7 @@ class Nav extends Component {
     return (
       <div className="Nav">
 
-        <nav className="ca-nav w3-orange ca-border-bottom-gray w3-hide-small">
+        <nav className="ca-nav w3-black ca-border-bottom-gray w3-hide-small">
           <div className="w3-cell-row w3-padding-16">
             <div className="w3-cell w3-cell-middle w3-container">
 
