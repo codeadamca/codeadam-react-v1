@@ -9,7 +9,7 @@ class HomeHeader extends Component {
 
         <header className="ca-border-bottom-gray">
 
-          <div className="ca-fullscreen">
+          <div className="ca-fullscreen w3-black">
             <video preload="auto" autoPlay loop muted className="ca-fullscreen-background">
                 <source src={homeVideo} />
             </video>
