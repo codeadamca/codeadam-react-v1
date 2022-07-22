@@ -2,6 +2,7 @@ import React,{Component} from "react";
 
 import ArticleList from "./../components/ArticleList";
 import Calendly from './../components/Calendly';
+import Pages from './../components/Pages';
 import CodeAdam from './../components/CodeAdam';
 import SocialList from './../components/SocialList';
 import NavCards from './../components/NavCards';
@@ -19,6 +20,7 @@ class Home extends Component {
         <NavCards title="Teaching Portfolio" links={portfolio}></NavCards>
         <NavCards title="In the Classroom" links={classroom}></NavCards>
         <Contributions></Contributions>
+        <Pages></Pages>
         <SocialList filter="home" value="yes"></SocialList>
         <CodeAdam></CodeAdam>
 

@@ -193,6 +193,12 @@ pre code.hljs {
   height: auto;
   text-decoration: none;
 }
+.ca-image-large {
+  display: inline-block;
+  width: 600px;
+  height: auto;
+  text-decoration: none;
+}
 
 /* Banners banners */
 .ca-third {
