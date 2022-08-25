@@ -9,7 +9,7 @@ class Contributions extends Component {
 
           <hr className="ca-hr" />
 
-          <iframe title="Github Contributions | Adam Thomas" src="https://pages.codeadam.ca/github-contributions/codeadamca" width="100%" height="160" frameborder="0" allowtransparency id="iframe"></iframe>
+          <iframe title="Github Contributions | Adam Thomas" src="https://pages.codeadam.ca/github-contributions/codeadamca" width="100%" height="190" frameborder="0" allowtransparency id="iframe"></iframe>
 
         </div>
 
