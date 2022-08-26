@@ -118,6 +118,23 @@ pre code.hljs {
 .ca-container-800:before {
   clear: both;
 }
+@media (max-width: 550px) {
+  .ca-container-550 {
+    padding-left: 10px;
+    padding-right: 10px;  
+  }
+}
+@media (max-width: 600px) {
+  .ca-container-600 {
+    padding-left: 10px;
+    padding-right: 10px;  
+  }
+}@media (max-width: 800px) {
+  .ca-container-800 {
+    padding-left: 10px;
+    padding-right: 10px;  
+  }
+}
 .ca-container-550 {
   margin-left: auto;
   margin-right: auto;
