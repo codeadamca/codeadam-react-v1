@@ -2,7 +2,6 @@ import React,{Component} from "react";
 import {Link} from 'react-router-dom';
 
 import Title from './../components/Title';
-import TopicList from './../learning/TopicList';
 
 import EvaluationList from './/TeachingEvaluationList';
 import TeachingTechnologyList from './TeachingTechnologyList';
