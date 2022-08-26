@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import './Instagram.css';
 
 class Instagram extends Component {
   render() {
