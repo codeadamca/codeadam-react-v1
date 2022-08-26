@@ -1,7 +1,6 @@
 import React,{Component} from "react";
 
 import ArticleList from "./../components/ArticleList";
-import Calendly from './../components/Calendly';
 import Pages from './../components/Pages';
 import CodeAdam from './../components/CodeAdam';
 import SocialList from './../components/SocialList';
