@@ -30,9 +30,9 @@ class Nav extends Component {
                   <Link to="/about" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">About Me</Link>
                 </>
                 : <>
-                  <Link to="https://codeadam.ca/" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">
+                  <a href="https://codeadam.ca/" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">
                     <img src={codeBlockWhite} className="ca-image-icon" alt="Code Adam Logo" width="" />
-                  </Link>
+                  </a>
                   <a href="https://codeadam.ca/teaching.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Teaching</a>
                   <span className="w3-text-white ca-pt-sans">|</span>
                   <a href="https://codeadam.ca/research-publishings.html" className="w3-text-white ca-pt-sans ca-margin-small-horizontal ca-font-none">Research and Publishings</a>
