@@ -7,7 +7,7 @@ ReactGA.initialize(process.env.GOOGLE_TRACKING_ID);
 
 const Page = ({ title, ...rest }) => {
   useEffect(() => {
-    document.title = (title ? title : "Home");
+    document.title = (title ? title + " | " : "") + process.env.REACT_APP_TITLE;
     ReactGA.pageview(window.location.pathname + window.location.search);
   });
   return <Route {...rest} />;
