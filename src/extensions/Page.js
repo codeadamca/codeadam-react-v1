@@ -3,7 +3,7 @@ import {Route} from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import ReactGA from 'react-ga';
-ReactGA.initialize(process.env.GOOGLE_TRACKING_ID);
+ReactGA.initialize({trackingId: process.env.GOOGLE_TRACKING_ID});
 
 const Page = ({ title, ...rest }) => {
   useEffect(() => {
