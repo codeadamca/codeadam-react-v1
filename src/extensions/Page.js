@@ -2,13 +2,13 @@ import React, {useEffect} from 'react';
 import {Route} from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-// import ReactGA from "react-ga4";
-// ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
+import ReactGA from "react-ga4";
+ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
 
 const Page = ({ title, ...rest }) => {
   useEffect(() => {
     document.title = (title ? title + " | " : "") + process.env.REACT_APP_TITLE;
-    // ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });
   });
   return <Route {...rest} />;
 };
