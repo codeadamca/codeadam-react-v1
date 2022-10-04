@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 
-import TweetEmbed from 'react-tweet-embed'
+// import TweetEmbed from 'react-tweet-embed'
 
 class Twitter extends Component {
   render() {
@@ -9,7 +9,7 @@ class Twitter extends Component {
         
         <div className="ca-container-550 w3-center">
 
-          <TweetEmbed id={this.props.id}></TweetEmbed>
+          {/*<TweetEmbed id={this.props.id}></TweetEmbed>*/}
 
         </div>
 

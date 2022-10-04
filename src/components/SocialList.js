@@ -47,7 +47,7 @@ class SocialList extends Component {
             <hr className="ca-hr" />
 
             {this.state.socials.map((social, index) => (
-              <>
+              <span key={index}>
                 <a href={social.url} className="ca-font-none" key={index}>
                   
                   <img src={social.image} 
@@ -55,8 +55,7 @@ class SocialList extends Component {
                     alt={social.title + ' logo'} />
                 </a>                
                 {((index + 1) === Math.round(this.state.socials.length / 2) && this.props.br) ? <br /> : ''}
-                
-              </>
+              </span>
             ))}
 
           </article>
