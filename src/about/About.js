@@ -116,7 +116,7 @@ const jobs = [
     position: 'Lead Developer',
     description: 'Lead developer of <a href="https://app.brevisrefero.com/">app.brevisrefero.com</a>, an online RFP platform connecting biopharm companies with biologics development and manufacturing services.',
     url: 'https://brevisrefero.com/',
-    published_at: 'July 2018 to Current'
+    duration: '2018 to Current'
   },
   {
     image: humber, 
@@ -124,7 +124,7 @@ const jobs = [
     position: 'Professor, Multimedia Design, Interactive & Web Development',
     description: 'Teach coding in three programs at <a href="http://humber.ca">Humber College</a>, Toronto Canada: <a href="https://mediastudies.humber.ca/programs/graphic-design.html">Graphic Design</a>, <a href="https://mediastudies.humber.ca/programs/multimedia-design-and-development.html">Multimedia, Design and Development</a>, and <a href="https://mediastudies.humber.ca/programs/web-design-interactive-media.html">Web Design and Interactive Media</a>. Technologies taught include HTML, CSS, JavaScript, jQuery, Firebase, SASS, LESS, PHP, MySQL, NodeJS, Python, Arduino, Raspberry Pi, and more.',
     url: 'http://humber.ca/',
-    published_at: 'September 2016 to Current'
+    duration: '2016 to Current'
   },
   {
     image: rht, 
@@ -132,6 +132,6 @@ const jobs = [
     position: 'Partner and Lead Developer',
     description: 'Contributed to the development of a series of internal applications such as Plujo, Learnopia, and <a href="https://rnked.com/">Rnked</a>.',
     url: 'http://www.robinhoodtech.com/',
-    published_at: 'September 2006 to 2016'
+    duration: '2006 to 2016'
   }
 ];
