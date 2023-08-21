@@ -8,7 +8,7 @@ This repository stores a React version of the codeadam.ca front-end. The pages i
 
 ## Repo Resources
 
-* [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [w3.css](https://www.w3schools.com/w3css/defaulT.asp) 
 * [React](https://reactjs.org/) 
 
