@@ -4,7 +4,9 @@ This repository stores a React version of the codeadam.ca front-end. The pages i
 
 ![codeadam.ca](https://github.com/codeadamca/codeadam-react/blob/main/screenshot-codeadam.png?raw=true)
 
-## Requirements:
+---
+
+## Repo Resources
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
 * [w3.css](https://www.w3schools.com/w3css/defaulT.asp) 
