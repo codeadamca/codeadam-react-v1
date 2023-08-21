@@ -2,7 +2,7 @@
 
 This repository stores a React version of the codeadam.ca front-end. The pages include samples of each different layout style using React and w3.css. All database content is currently stored in JSON files.
 
-![codeadam.ca](https://github.com/codeadamca/codeadam-react/blob/main/screenshot-codeadam.png?raw=true)
+![codeadam.ca](_readme/screenshot-codeadam.png?raw=true)
 
 ---
 
